@@ -7,15 +7,18 @@
   "scripts": {
     "dev": "tsx watch src/main.ts",
     "start": "tsx src/main.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "hl": "tsx scripts/hl.ts"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
     "tsx": "^4.19.2"
   },
   "devDependencies": {
+    "@msgpack/msgpack": "^3.0.0",
     "@types/better-sqlite3": "^7.6.12",
     "@types/node": "^22.10.5",
+    "js-sha3": "^0.9.3",
     "typescript": "^5.7.3"
   }
 }
