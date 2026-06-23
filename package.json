@@ -1,0 +1,21 @@
+{
+  "name": "permanent-underpod",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An AI rolls a random perp on Hyperliquid and we watch it drown. Live tracker + Underwater-o-meter dashboard. Keys held by sigil — the agent can trade but physically cannot withdraw.",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

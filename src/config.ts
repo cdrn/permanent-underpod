@@ -1,0 +1,13 @@
+// All read-only. No private keys live in this process — order signing is done
+// out-of-band by sigil. This service only watches a wallet's position.
+export const HL_API = process.env.HL_API ?? "https://api.hyperliquid.xyz";
+export const WALLET = (process.env.UNDERPOD_WALLET ?? "").toLowerCase();
+export const PORT = Number(process.env.UNDERPOD_PORT ?? 4749);
+export const POLL_MS = Number(process.env.UNDERPOD_POLL_MS ?? 5000);
+export const DB_PATH = process.env.UNDERPOD_DB ?? "underpod.db";
+
+if (!WALLET || !/^0x[0-9a-f]{40}$/.test(WALLET)) {
+  console.warn(
+    `[underpod] UNDERPOD_WALLET is not a valid address (${WALLET || "unset"}) — tracker will idle until set`,
+  );
+}

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PERMANENT UNDERPOD — live</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --abyss: #03080f;
+        --deep: #061626;
+        --sea: #0a3a5c;
+        --foam: #7fd4ff;
+        --sonar: #36f5a0;
+        --warn: #ffc34d;
+        --blood: #ff4d6d;
+        --ink: #cfe8ff;
+        --mute: #5b7a92;
+        --grid: rgba(54, 245, 160, 0.07);
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; }
+      body {
+        font-family: "JetBrains Mono", monospace;
+        background:
+          radial-gradient(120% 80% at 50% -10%, #0c2438 0%, var(--deep) 38%, var(--abyss) 100%);
+        color: var(--ink);
+        min-height: 100%;
+        overflow-x: hidden;
+        position: relative;
+      }
+      /* sonar grid wash */
+      body::before {
+        content: "";
+        position: fixed; inset: 0;
+        background-image:
+          linear-gradient(var(--grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+        background-size: 44px 44px;
+        mask-image: radial-gradient(80% 60% at 50% 20%, #000 30%, transparent 100%);
+        pointer-events: none;
+        z-index: 0;
+      }
+      .wrap { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 28px 22px 80px; }
+
+      header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 10px; border-bottom: 1px solid rgba(127,212,255,0.14); padding-bottom: 16px; }
+      .brand { font-family: "Anton", sans-serif; font-size: clamp(26px, 4.4vw, 48px); letter-spacing: 0.06em; line-height: 0.92; text-transform: uppercase; }
+      .brand span { color: var(--sonar); }
+      .tag { color: var(--mute); font-size: 12px; max-width: 360px; text-align: right; }
+      .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--sonar); box-shadow: 0 0 10px var(--sonar); margin-right: 6px; animation: pulse 2s infinite; }
+      .dot.stale { background: var(--warn); box-shadow: 0 0 10px var(--warn); }
+      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+      .roll { margin: 22px 0 8px; font-family: "Anton", sans-serif; font-size: clamp(20px, 3.6vw, 34px); letter-spacing: 0.04em; text-transform: uppercase; }
+      .roll .side-long { color: var(--sonar); }
+      .roll .side-short { color: var(--blood); }
+      .roll small { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--mute); letter-spacing: 0; text-transform: none; display: block; margin-top: 4px; }
+
+      .stage { display: grid; grid-template-columns: 1.6fr 1fr; gap: 22px; margin-top: 18px; }
+      @media (max-width: 820px) { .stage { grid-template-columns: 1fr; } }
+
+      .pnlcard { position: relative; border: 1px solid rgba(127,212,255,0.16); border-radius: 14px; padding: 26px 24px; background: linear-gradient(180deg, rgba(10,58,92,0.18), rgba(3,8,15,0.4)); overflow: hidden; }
+      .pnllabel { color: var(--mute); font-size: 12px; text-transform: uppercase; letter-spacing: 0.18em; }
+      .pnl { font-family: "Anton", sans-serif; font-size: clamp(54px, 11vw, 120px); line-height: 0.9; letter-spacing: 0.01em; margin-top: 6px; transition: color .4s; }
+      .pnl.up { color: var(--sonar); text-shadow: 0 0 28px rgba(54,245,160,0.4); }
+      .pnl.down { color: var(--blood); text-shadow: 0 0 28px rgba(255,77,109,0.4); }
+      .roi { font-size: 18px; margin-top: 2px; }
+      .spark { width: 100%; height: 90px; margin-top: 14px; display: block; }
+
+      .gauge { border: 1px solid rgba(127,212,255,0.16); border-radius: 14px; padding: 0; overflow: hidden; position: relative; min-height: 320px; background: var(--abyss); }
+      .gaugehead { position: absolute; top: 12px; left: 14px; right: 14px; z-index: 3; display: flex; justify-content: space-between; font-size: 11px; color: var(--mute); text-transform: uppercase; letter-spacing: 0.14em; }
+      .water { position: absolute; left: 0; right: 0; bottom: 0; background: linear-gradient(180deg, rgba(54,245,160,0.0), var(--sea) 60%, #04243a 100%); transition: height 1.2s cubic-bezier(.4,0,.2,1); border-top: 2px solid var(--foam); }
+      .water::before { content:""; position:absolute; top:-2px; left:0; right:0; height:2px; background: var(--foam); filter: blur(2px); opacity:.7; }
+      .ship { position: absolute; left: 50%; transform: translateX(-50%); font-size: 40px; transition: bottom 1.2s cubic-bezier(.4,0,.2,1); z-index: 2; filter: drop-shadow(0 2px 6px rgba(0,0,0,.6)); }
+      .drownlabel { position: absolute; bottom: 14px; left: 0; right: 0; text-align: center; z-index: 4; font-size: 13px; color: var(--foam); }
+      .drownlabel b { font-family: "Anton", sans-serif; font-size: 26px; display: block; }
+
+      .grid3 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 22px; }
+      @media (max-width: 820px) { .grid3 { grid-template-columns: repeat(2,1fr); } }
+      .stat { border: 1px solid rgba(127,212,255,0.12); border-radius: 12px; padding: 16px; background: rgba(6,22,38,0.4); }
+      .stat .k { color: var(--mute); font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; }
+      .stat .v { font-family: "Anton", sans-serif; font-size: 30px; margin-top: 6px; letter-spacing: 0.02em; }
+      .stat .v.warn { color: var(--warn); }
+      .stat .v.bleed { color: var(--blood); }
+      .stat .sub { color: var(--mute); font-size: 11px; margin-top: 2px; }
+
+      .empty { text-align: center; padding: 80px 20px; color: var(--mute); }
+      .empty .big { font-family: "Anton", sans-serif; font-size: 40px; color: var(--foam); letter-spacing: 0.04em; }
+
+      footer { margin-top: 40px; color: var(--mute); font-size: 11px; border-top: 1px solid rgba(127,212,255,0.1); padding-top: 14px; line-height: 1.7; }
+      footer b { color: var(--ink); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="brand">PERMANENT <span>UNDERPOD</span></div>
+        <div class="tag">
+          <span id="livedot" class="dot"></span><span id="livetxt">connecting…</span><br />
+          an AI rolled a perp. the keys live in a vault it can't withdraw from.
+          we just watch it drown.
+        </div>
+      </header>
+
+      <div id="roll" class="roll"></div>
+
+      <main id="stage"></main>
+
+      <footer>
+        <b>How this works.</b> A random asset / direction / leverage was rolled live on the show and opened on
+        Hyperliquid. The trading key is held by <b>sigil</b> — it can place orders but
+        <b>physically cannot withdraw funds</b>. This board is read-only; it polls Hyperliquid every few seconds.
+        Not advice. Obviously.
+      </footer>
+    </div>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      const fmtUsd = (n, dp = 2) =>
+        (n < 0 ? "-$" : "$") +
+        Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: dp, maximumFractionDigits: dp });
+      const fmtAge = (ms) => {
+        const s = Math.floor(ms / 1000);
+        const d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600), m = Math.floor((s % 3600) / 60);
+        if (d > 0) return `${d}d ${h}h ${m}m`;
+        if (h > 0) return `${h}h ${m}m`;
+        return `${m}m ${s % 60}s`;
+      };
+
+      function sparkline(svg, pts) {
+        if (!pts.length) { svg.innerHTML = ""; return; }
+        const W = svg.clientWidth || 600, H = 90, pad = 4;
+        const xs = pts.map((p) => p.ts), ys = pts.map((p) => p.pnl);
+        const x0 = Math.min(...xs), x1 = Math.max(...xs);
+        const y0 = Math.min(0, ...ys), y1 = Math.max(0, ...ys);
+        const sx = (x) => pad + ((x - x0) / Math.max(1, x1 - x0)) * (W - 2 * pad);
+        const sy = (y) => H - pad - ((y - y0) / Math.max(1e-9, y1 - y0)) * (H - 2 * pad);
+        const d = pts.map((p, i) => `${i ? "L" : "M"}${sx(p.ts).toFixed(1)} ${sy(p.pnl).toFixed(1)}`).join(" ");
+        const up = ys[ys.length - 1] >= 0;
+        const col = up ? "#36f5a0" : "#ff4d6d";
+        const zeroY = sy(0).toFixed(1);
+        svg.innerHTML =
+          `<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+             <stop offset="0" stop-color="${col}" stop-opacity="0.32"/>
+             <stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+           <line x1="0" y1="${zeroY}" x2="${W}" y2="${zeroY}" stroke="#5b7a92" stroke-dasharray="3 4" stroke-width="1"/>
+           <path d="${d} L ${sx(x1).toFixed(1)} ${zeroY} L ${sx(x0).toFixed(1)} ${zeroY} Z" fill="url(#g)"/>
+           <path d="${d}" fill="none" stroke="${col}" stroke-width="2" stroke-linejoin="round"/>`;
+      }
+
+      function renderEmpty(state) {
+        $("roll").innerHTML = "";
+        $("stage").innerHTML = `
+          <div class="empty" style="grid-column:1/-1">
+            <div class="big">NO POSITION OPEN</div>
+            <p style="margin-top:10px">The dice haven't been rolled yet — or the last one already hit the seabed.</p>
+            <p style="margin-top:6px">Account value: <b>${fmtUsd(state.accountValue || 0)}</b></p>
+          </div>`;
+      }
+
+      async function render(p, state) {
+        const pnlUp = p.unrealizedPnl >= 0;
+        const sideCls = p.side === "LONG" ? "side-long" : "side-short";
+        $("roll").innerHTML =
+          `THE ROLL → <span class="${sideCls}">${p.side} ${p.coin}</span> · ${p.leverage}×
+           <small>entry ${fmtUsd(p.entryPx, p.entryPx < 10 ? 4 : 2)} · mark ${fmtUsd(p.markPx, p.markPx < 10 ? 4 : 2)} · size ${p.size.toLocaleString()} · notional ${fmtUsd(p.notional, 0)}</small>`;
+
+        const drown = Math.round(p.drownPct);
+        const fundBleed = p.fundingHourly < 0;
+
+        $("stage").innerHTML = `
+          <div class="pnlcard">
+            <div class="pnllabel">Unrealized PnL</div>
+            <div class="pnl ${pnlUp ? "up" : "down"}">${pnlUp ? "+" : "−"}${fmtUsd(Math.abs(p.unrealizedPnl)).slice(1)}</div>
+            <div class="roi ${pnlUp ? "up" : "down"}" style="color:${pnlUp ? "var(--sonar)" : "var(--blood)"}">
+              ${pnlUp ? "+" : ""}${p.roiPct.toFixed(1)}% on margin
+            </div>
+            <svg class="spark" id="spark"></svg>
+          </div>
+          <div class="gauge">
+            <div class="gaugehead"><span>surface · entry</span><span>seabed · liquidation</span></div>
+            <div class="water" id="water" style="height:${drown}%"></div>
+            <div class="ship" id="ship" style="bottom:calc(${drown}% - 6px)">${drown >= 96 ? "🪦" : "🚢"}</div>
+            <div class="drownlabel">
+              <b>${drown}%</b> sunk
+              ${p.distToLiqPct === null ? "" : `· ${p.distToLiqPct.toFixed(2)}% from liquidation`}
+            </div>
+          </div>`;
+
+        $("stage").insertAdjacentHTML("beforeend", `
+          <div class="grid3">
+            <div class="stat"><div class="k">Time alive</div><div class="v">${fmtAge(p.ageMs)}</div><div class="sub">since the roll</div></div>
+            <div class="stat"><div class="k">Liq price</div><div class="v warn">${p.liqPx ? fmtUsd(p.liqPx, p.liqPx < 10 ? 4 : 2) : "—"}</div><div class="sub">the seabed</div></div>
+            <div class="stat"><div class="k">Funding ${fundBleed ? "bleed" : "earn"} /hr</div><div class="v ${fundBleed ? "bleed" : ""}">${fundBleed ? "−" : "+"}${fmtUsd(Math.abs(p.fundingHourly)).slice(1)}</div><div class="sub">paid so far ${p.fundingPaid >= 0 ? "+" : "−"}${fmtUsd(Math.abs(p.fundingPaid)).slice(1)}</div></div>
+            <div class="stat"><div class="k">Account value</div><div class="v">${fmtUsd(state.accountValue)}</div><div class="sub">margin ${fmtUsd(p.marginUsed, 0)}</div></div>
+          </div>`);
+
+        try {
+          const hist = await (await fetch(`/api/history?coin=${encodeURIComponent(p.coin)}&hours=72`)).json();
+          sparkline($("spark"), hist.map((h) => ({ ts: h.ts, pnl: h.pnl })));
+        } catch {}
+      }
+
+      async function tick() {
+        try {
+          const state = await (await fetch("/api/state")).json();
+          const stale = state.stale;
+          $("livedot").className = "dot" + (stale ? " stale" : "");
+          $("livetxt").textContent = stale ? "stale — reconnecting" : "live";
+          if (state.position) await render(state.position, state);
+          else renderEmpty(state);
+        } catch {
+          $("livedot").className = "dot stale";
+          $("livetxt").textContent = "offline";
+        }
+      }
+      tick();
+      setInterval(tick, 5000);
+    </script>
+  </body>
+</html>

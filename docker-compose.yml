@@ -1,0 +1,16 @@
+services:
+  underpod:
+    build: .
+    container_name: underpod
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      # bind to loopback only — Caddy reverse-proxies the public vhost
+      - "127.0.0.1:4749:4749"
+    volumes:
+      - underpod-data:/app/data
+    environment:
+      UNDERPOD_DB: /app/data/underpod.db
+
+volumes:
+  underpod-data:
