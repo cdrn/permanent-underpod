@@ -10,8 +10,8 @@
 > **Why is Bitcoin sentiment so bad? (Jackson's topic.)** Told through four losers, none of them a price: Binance ($6.3B), the miners (Core Scientific quits mining by year-end; it was 7.5% of revenue), the stablecoin float ($14.2B redeemed in 30 days), and the lobby ($200M+ spent, both chambers lost). Jackson named the topic, so the Ep 11 exception applies: the mood and its structural causes only.
 > **Browsers are out (Jackson's topic), half true.** The standalone agent browsers died this year and got folded back into Chrome, Edge and Gemini. What changed is who gets to act: Amazon blocked Meta's agent, Resy reportedly bans people who book through one, and publishers are down 26–38% on search referrals.
 > **Agentic commerce (standing, Chris): three more banks.** Nov 18: Citi, PNC and Citizens made customers responsible for whatever their agent does, even if the AI tool is hacked. Wells Fargo's terms start Nov 24, three days before Black Friday. Still no confirmed agent-fraud loss anywhere.
-> **Layer-2 series, entry four: Ark (Tyler).** Three implementations, and the one that got exploited (Second, Oct 5, 0.75 BTC) still has no postmortem on day 46.
-> **Ceiling 52 minutes.** Slate runs ~50. If behind: trim W to four minutes, then fold D into W. M, S and B hold.
+> **Layer-2 series, entry four: Ark and Cashu (Tyler; Jackson's add).** Two ways to pay instantly without a Lightning channel. Ark keeps your exit: three implementations, and the one that got exploited (Second, Oct 5, 0.75 BTC) still has no postmortem on day 46. Cashu gives up the exit for privacy: the mint holds the bitcoin and can't see who pays whom.
+> **Ceiling 52 minutes.** Slate runs ~51. If behind: trim W to four minutes, then fold D into W. M, S and B hold.
 
 ## Title candidates (pick before the edit; packaging is a launch-day gate)
 
@@ -31,7 +31,7 @@
 | F | Perp of Fortune + the Bitcoin flip | Robot | "The robot's maker went public yesterday. Does it bet on itself?" | 4 |
 | W | Browsers are out | Jackson | "Amazon banned Meta's shopping agent. Resy bans people who use one. Who decides which robots get to use the web?" | 7 |
 | D | Agentic commerce: three more banks | Chris | "Citi's new terms: if your AI agent gets hacked and empties your account, that's on you." | 5 |
-| L | Layer-2 series: Ark | Tyler | "An Ark operator lost three-quarters of a bitcoin on October 5 and still hasn't said how." | 6 |
+| L | Layer-2 series: Ark and Cashu | Tyler | "Two ways to hold bitcoin on your phone. One lets you leave whenever you want. The other can't see what you spend." | 7 |
 | Z | Close | All | Perp final, one prediction each | 2 |
 
 - Cold open ≤45 s. Candidates: "Anthropic is not a safe AI company," "used an internal AI tool," "that's on you," the perp reveal.
@@ -142,20 +142,30 @@
 
 **Clip question:** "Citi's new terms: if your AI agent gets hacked and drains your account, you authorized it. Would you still turn one on for Black Friday?"
 
-### L — Layer-2 series, entry four: Ark (Tyler, ≤6 min)
+### L — Layer-2 series, entry four: Ark and Cashu (Tyler, ≤7 min)
 
-**Start on the loss, then explain.** Record the 2-minute explainer as one clean standalone take.
+**Why together:** both give you instant bitcoin payments without opening a Lightning channel. Ark keeps your exit. Cashu gives it up and buys privacy. Start on the loss, then explain. Record each 90-second explainer as a clean standalone take.
 
-- **The stakes.** Oct 5: Second's server didn't enforce its own co-signature at boarding and 0.75 BTC of operator liquidity was drained. Second says user funds were not at risk. No postmortem on its blog as of Nov 19 (latest post Oct 14). [The Bitcoin Manual](https://thebitcoinmanual.com/articles/ark-operator-second-hack/) · [Second](https://second.tech/blog)
-- **The explainer (≤2 min).** An operator batches many users into one on-chain transaction; each user holds a pre-signed path out (a VTXO). Payments inside are instant. The catches: VTXOs expire and must be refreshed, the operator fronts liquidity, and leaving alone costs on-chain fees.
-- **The series test.** Unilateral exit: yes, pre-signed, before expiry. That's the difference from Liquid (Ep 23, 46:52: "why does it still exist").
-- **Three implementations.** Arkade (public beta on mainnet since Oct 2025), Second's Bark (mainnet since Jun 9), Lightning Labs' Wavelength (alpha, invite-only on mainnet; "Ark-like"). [Wavelength](https://github.com/lightninglabs/wavelength)
+- **The stakes, Ark.** Oct 5: Second's server didn't enforce its own co-signature at boarding and 0.75 BTC of operator liquidity was drained. Second says user funds were not at risk. No postmortem on its blog as of Nov 19 (latest post Oct 14). [The Bitcoin Manual](https://thebitcoinmanual.com/articles/ark-operator-second-hack/) · [Second](https://second.tech/blog)
+- **Ark in 90 seconds.** An operator batches many users into one on-chain transaction; each user holds a pre-signed path out (a VTXO). Payments inside are instant. The catches: VTXOs expire and must be refreshed, the operator fronts liquidity, and leaving alone costs on-chain fees.
+- **Three Ark implementations.** Arkade (public beta on mainnet since Oct 2025), Second's Bark (mainnet since Jun 9), Lightning Labs' Wavelength (alpha, invite-only on mainnet; "Ark-like"). [Wavelength](https://github.com/lightninglabs/wavelength)
+- **Cashu in 90 seconds.** You send bitcoin to a mint and get back ecash: signed tokens that sit on your phone like cash. The mint signs them blind, so it can't tell which token it gave to whom or see who pays whom. Paying is handing over a token. Redeeming is asking the mint for the bitcoin back. The mint holds all of it.
+- **The stakes, Cashu.** The mint can walk off with the bitcoin, or issue more ecash than it holds, and nobody outside can see it. That's the same blind spot as Liquid's hidden amounts (Ep 23, 46:52). No mint rug or exploit with user losses turned up for 2026; the live failures are wallet bugs, like a Zeus issue (Nov 9) where a restart can hide a balance at a mint the app added on its own. [Zeus #5711](https://github.com/ZeusLN/zeus/issues/5711)
+- **What's new on Cashu.**
+  - Paper ecash: BitNotes (Oct 22) prints tokens you can verify offline. [Crypto Briefing](https://cryptobriefing.com/calle-launches-bitnotes-cashu-ecash-wallet/)
+  - A stablecoin: Ducat's bitcoin-backed UNIT got an ecash form, Turbo UNIT (Oct 24); holders depend on Ducat's mint to redeem. Chris's line. [Crypto Briefing](https://cryptobriefing.com/ducat-unit-stablecoin-cashu-turbo-unit/)
+  - Enclave mints: Calle said around May that mints are coming where the operator can't reach the keys or inflate supply. One line only; enclaves are retired this month. [TFTC](https://www.tftc.io/non-custodial-ecash-mints-bitcoin-cashu-enclave-hal-finney)
+  - Nutshell 0.22 (Nov 2–3) is the reference mint's latest release; minting on-chain, not just over Lightning, arrived in Q2. [Cashu Q2](https://blog.cashu.space/q2-2026-highlights/)
+- **The series test, side by side.** Unilateral exit: Ark yes (pre-signed, before expiry); Cashu no (the mint or nothing). Privacy from the operator: Ark no; Cashu yes. Is Cashu a layer two at all? Its own developers call it custodial ecash. Tyler rules.
 - **Series status lines.** Liquid: 1:1 again, Federation peg-outs still restricted, no November post. Utexo's RGB USDT still set for Nov 28. Nothing new from Core or Lightning since Nov 12. [Liquid](https://blog.liquid.net/liquid-network-staged-recovery-update/)
-- **Grade:** Tyler picks the letter. Ranked against Spark (Ep 17), Lightning (Ep 19), Liquid (Ep 23).
-- **Debate:** Tyler: the operator lost its own money and users didn't. Is that the design working? Chris: 46 days without a postmortem; what would you accept from a stablecoin issuer? Jackson: three teams, one idea. Which one ships a wallet people use?
-- **Do NOT say:** Second published a postmortem; Second users lost funds; Wavelength is a full Ark; Spark is an Ark; Arkade left beta; Liquid peg-outs reopened; Utexo launched.
+- **Grades:** Tyler picks two letters. Ranked against Spark (Ep 17), Lightning (Ep 19), Liquid (Ep 23).
+- **Debate:**
+  1. **Tyler:** you can have the exit or the privacy. Which one would you hand your mother?
+  2. **Chris:** a stablecoin as ecash at one mint. Is that more or less trust than a bank deposit? And 46 days without an Ark postmortem: what would you accept from an issuer?
+  3. **Jackson:** if the mint runs in an enclave nobody can open, does Cashu pass the exit test, or did we just move the trust to a chip (Ep 23)?
+- **Do NOT say:** Second published a postmortem; Second users lost funds; Wavelength is a full Ark; Spark is an Ark; Arkade left beta; Cashu is non-custodial or trustless; the mint can see your payments (it can't link them; it does hold the money); a Cashu mint rugged users this year (none found); enclave mints are live (announced); BitNotes is on iPhone (Android and macOS only); Turbo UNIT is non-custodial; Liquid peg-outs reopened; Utexo launched.
 
-**Clip question:** "An Ark operator lost three-quarters of a bitcoin and its users lost nothing. Forty-six days later it still hasn't said how. Is that the design working?"
+**Clip question:** "Two ways to hold bitcoin on your phone. In one you can always leave, and the operator sees everything. In the other nobody sees anything, and the operator holds all the money. Which do you pick?"
 
 ## Fresh-news bench (each opens on the victim)
 
@@ -167,7 +177,7 @@
 
 ## Evergreen bench
 
-- **Layer-2 series:** Spark (Ep 17) · Lightning (Ep 19) · Liquid (Ep 23) · **Ark (Ep 24)** · next: RGB if Utexo ships Nov 28.
+- **Layer-2 series:** Spark (Ep 17) · Lightning (Ep 19) · Liquid (Ep 23) · **Ark and Cashu (Ep 24)** · next: RGB if Utexo ships Nov 28.
 - **Secure enclaves:** aired Ep 23; retired until mid-December unless something remote breaks.
 - **Open vs. closed weights:** aired as Ep 23's marquee; Kress's Nov 17 line is the only new peg (in M).
 - **Agentic commerce:** standing. Unaired Ep 18–23.
@@ -177,8 +187,8 @@
 - **Everyone (10 min):** [the statement](https://misanthropicstatement.com), [CNBC on the pricing](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html), [The Hacker News on Cursor](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html).
 - **Jackson:** check ANT's first day and any Anthropic response the morning of; open the Stock Titan governance claims against the filing; pick the cold-open beats and the title.
 - **Chris:** open [Cursor's own post](https://cursor.com/blog/security-incident-update) and [Google's report](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold) (the desk only has both secondhand); read the TechCrunch bank piece; have the $14.2B stablecoin answer ready.
-- **Tyler:** rehearse the Ark explainer to two minutes; check second.tech for a postmortem and blog.liquid.net for a peg-out reopening; pick Ark's grade; prepare the contrarian corner in B.
+- **Tyler:** rehearse the Ark and Cashu explainers to 90 seconds each; check second.tech for a postmortem and blog.liquid.net for a peg-out reopening; skim the [Cashu Q2 highlights](https://blog.cashu.space/q2-2026-highlights/); pick both grades and rule on whether Cashu counts as a layer two; prepare the contrarian corner in B.
 - **Whoever runs the perp:** confirm the ANT perp's status, place the flip, confirm the dashboard share.
-- **Unverified, check before quoting:** the IPO governance details; the Nov 10 "threshold met" filing claim; Hendrycks's X posts; Cursor's 5,000 and 0.01%; Google's report text; the publisher traffic figures; the Wells Fargo Section 15 wording; whether ANT traded.
+- **Unverified, check before quoting:** the IPO governance details; the Nov 10 "threshold met" filing claim; Hendrycks's X posts; Cursor's 5,000 and 0.01%; Google's report text; the publisher traffic figures; the Wells Fargo Section 15 wording; whether ANT traded; every Cashu item (BitNotes, Turbo UNIT, enclave mints, Nutshell 0.22 are from search summaries).
 - **Fact guardrails:** no BTC price or ETF numbers anywhere, including B and the perp wrap; no OpenAI or Chainalysis; no employer names; the two Claude Code stories are a poisoned cache and an edited config, not product bugs; North Korea attributions are "suspected" or "per the FBI"; Peña is accused; Megaspeed is under investigation.
 - **Close:** perp and flip result, one prediction each. Tease only what a host claims: Black Friday's first agent numbers, Utexo's Nov 28 launch, the next L2 entry.
