@@ -5,7 +5,7 @@
 **Off the slate (conflicts of interest): OpenAI and Chainalysis stories. Don't raise either on tape, including as asides.**
 **First episode of the four-week test (Ep 24–27): one lane, "a named victim and a number." Welcome ≤40 s, the marquee starts straight after it, the perp moves to the back half, every block opens on who got hurt and how much.**
 
-> **MARQUEE: the week everything went down (Jackson's lead).** Nov 12–17: Microsoft 365, the FAA, Workday, Claude, AWS, Chase, United, the NSA's classified network and Apple all failed. Not one was an attack. Six of the nine did it to themselves with an update, an upgrade, a patch or a test. Same eight days, twelve companies disclosed break-ins, and eight of those came in through a vendor.
+> **MARQUEE: the week everything went down (Jackson's lead).** Nov 12–17: Microsoft 365, the FAA, Workday, Claude, AWS, Chase, United, the NSA's classified network and Apple all failed. Not one was an attack. Six of the nine did it to themselves with an update, an upgrade, a patch or a test. Same eight days, thirteen companies disclosed break-ins, and nine of those came in through a vendor.
 > **"Anthropic is not a safe AI company" (Jackson's topic).** Nov 18, the day Anthropic priced the largest IPO on record ($83 a share, $81.3B raised), a statement with 100+ signers went up at misanthropicstatement.com. Signers run from Nobel laureates and Fields medalists to Gary Marcus, George Hotz and "Beff Jezos." It makes no demand except "reject." The founders sold $1.96B combined and kept 50.1% of the vote.
 > **Your AI coding tool is the way in.** A key stolen from one AI vendor ended in a backdoored Claude Code extension build offered to up to 5,000 Cursor users. Google says suspected North Korean hackers edited a Claude Code settings file inside crypto firms so every launch pulled a backdoor. Binance's own report says its $6.3B attacker used the exchange's internal AI tool.
 > **Why is Bitcoin sentiment so bad? (Jackson's topic.)** Told through four losers, none of them a price: Binance ($6.3B), the miners (Core Scientific quits mining by year-end; it was 7.5% of revenue), the stablecoin float ($14.2B redeemed in 30 days), and the lobby ($200M+ spent, both chambers lost). Jackson named the topic, so the Ep 11 exception applies: the mood and its structural causes only.
@@ -60,7 +60,7 @@
 >
 > So that's sixty-seven percent self-inflicted. Eleven percent somebody else's outage. Twenty-two percent no explanation. Zero percent hackers.
 >
-> Now the hackers were busy. They just weren't taking things down. In the same eight days, twelve companies said they'd been broken into. Chase, Visa, Expedia, Notion, Cursor. And here's that breakdown. Eight of the twelve, again two out of three, weren't broken into directly. The attackers came in through a vendor. Chase: a marketing vendor. Visa: a vendor in Asia. Cursor: a key stolen from an AI company it used. One of the twelve was a hole in the company's own product, and that one hole put malicious code on a hundred and seventy-eight other companies' websites. The other three haven't said how.
+> Now the hackers were busy. They just weren't taking things down. In the same eight days, thirteen companies said they'd been broken into. Chase, Visa, Mastercard, Expedia, Notion, Cursor. And here's that breakdown. Nine of the thirteen, again about two out of three, weren't broken into directly. The attackers came in through a vendor. Chase, Visa and Mastercard: all three leaked by the same ransomware gang, all three through an outside provider, not their own systems. Cursor: a key stolen from an AI company it used. One of the thirteen was a hole in the company's own product, and that one hole put malicious code on a hundred and seventy-eight other companies' websites. The other three haven't said how.
 >
 > So the week in one line: when it went down, they did it to themselves. When it got hacked, somebody else left the door open.
 
@@ -83,12 +83,13 @@
 - **Left off the list:** Schwab (a "brief webpage loading issue"), a 93-minute Apple outage on Nov 10 (one source), and another AI lab's incidents (off the slate).
 - Sources: [Control Plane](https://controlplane.com/blog/post/november-2026-outage-wave-explained) · [Yahoo Finance](https://finance.yahoo.com/technology/article/cyberattacks-and-outages-here-are-all-of-the-major-national-disruptions-in-november-181143019.html) · [CSA](https://labs.cloudsecurityalliance.org/research/csa-research-note-november-outage-cluster-correlated-fragili/) · [Tech Times on Chase](https://www.techtimes.com/articles/330883/20261117/chase-outage-bank-says-premise-hardware-bug-slowed-rival-banks-only-through-chase-transactions.htm) · [CBS on the NSA](https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/) · [CBS on United](https://www.cbsnews.com/news/united-airlines-system-outage-departing-flights/) · [Workday](https://thecybersecguru.com/news/workday-outage-november-2026-disaster-recovery-test/)
 
-**The break-ins (12 disclosed Nov 11–19):**
+**The break-ins (13 disclosed Nov 11–19):**
 
 | Who | How they got in | Bucket |
 |---|---|---|
 | JPMorgan Chase | Vendors' marketing files; the n0n gang leaked about 16,000 private-client emails (Cybernews count, not Chase's) | Vendor |
 | Visa | A third-party provider in Asia Pacific; 6,000+ premium customers in the same leak | Vendor |
+| Mastercard | "An incident at a third-party provider"; a subset of cardholders in one benefit program, in the same n0n leak | Vendor |
 | Expedia | A compromised third-party technology provider | Vendor |
 | Infoblox | A data-migration vendor | Vendor |
 | Fireworks AI | Its cloud provider | Vendor |
@@ -100,7 +101,8 @@
 | Bitrise | Not disclosed; platform taken offline | Not disclosed |
 | N-able | Not disclosed; one mail-security server | Not disclosed |
 
-- **The math:** 8 of 12 through a vendor (67%) · 1 of 12 own product flaw (8%) · 3 of 12 not disclosed (25%).
+- **The math:** 9 of 13 through a vendor (69%) · 1 of 13 own product flaw (8%) · 3 of 13 not disclosed (23%).
+- **The n0n leak (WSJ, Nov 19, via Quartz and Investing.com).** A new ransomware group listed Visa, Mastercard and JPMorgan around Nov 16 with a 48-hour deadline, then published. All three confirm a third-party incident and say their own systems and card numbers weren't touched. None has named the vendor. A Cybernews researcher thinks one shared vendor is behind all three (matching file formats); that's an inference. [Quartz](https://qz.com/hackers-leak-visa-mastercard-jpmorgan-data-vendors-111926) · [Cybernews on Mastercard](https://cybernews.com/security/n0n-ransomware-leaks-alleged-mastercard-customers-data/)
 - **Also hit, cause unknown:** Monadnock Community Hospital and Vanderbilt University.
 - Sources: [IBTimes](https://www.ibtimes.co.uk/us-businesses-hit-cyber-incidents-outages-1832974) · [Cybernews](https://cybernews.com/security/visa-jpmorgan-data-breach/) · [TechCrunch on Infoblox](https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information) · [SecurityWeek on Apify](https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/) · [Report URI on Optimizely](https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/) · [The Hacker News on Cursor](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html)
 
@@ -112,10 +114,10 @@
 - **The one real AI link.** The NSA patch was for PHP2Shell, the flaw from Ep 20 that an AI helped find. Sen. Mark Warner: "If you're trying to patch 10 or 12 in a single week, you have these kind of outages." AI finds the bugs faster than anyone can safely patch them.
 - **Callbacks:** Ep 20 (PHP2Shell: "don't tell Claude about the PHP bug"); Ep 22 (Paraguay: half a country used one bank); Ep 23 bench (Fireworks and Notion, unaired).
 - **Debate:**
-  1. **Chris:** two out of three break-ins came through a vendor. Is "we weren't hacked, our vendor was" a defense, or the whole problem?
+  1. **Chris:** nine of thirteen break-ins came through a vendor. Is "we weren't hacked, our vendor was" a defense, or the whole problem?
   2. **Tyler:** one bank's bug delayed payments at four others. Bitcoin didn't go down this week. Is that the pitch, or does nobody care until it's their payroll?
   3. **Jackson:** nobody blames AI on the record, and the one outage with an AI link was a patch for a bug AI found. Is the patch rush the new outage machine?
-- **Do NOT say:** any outage was a cyberattack; AI caused any of them (Mullin's theory is one unnamed source; nothing confirmed); Chase's outage and the Chase vendor breach are connected (the bank says separate; the leak listing came hours before the outage, which proves nothing); "16,000 Chase customers" as the bank's number; Microsoft's cause as final (preliminary); the FAA's cause as final; the NSA said PHP (the DNI and CBS's sources did; the NSA said "maintenance"); AWS or United's cause; the other banks failed on their own; anything about the other AI lab's incidents; "all in the same week" for the hacks (disclosed Nov 11–19; some happened earlier).
+- **Do NOT say:** any outage was a cyberattack; AI caused any of them (Mullin's theory is one unnamed source; nothing confirmed); Chase's outage and the Chase vendor breach are connected (the bank says separate; the leak listing came hours before the outage, which proves nothing); "16,000 Chase customers" as the bank's number; card numbers or payment data leaked (all three say no); one vendor was behind Visa, Mastercard and Chase (a researcher's inference); Microsoft's cause as final (preliminary); the FAA's cause as final; the NSA said PHP (the DNI and CBS's sources did; the NSA said "maintenance"); AWS or United's cause; the other banks failed on their own; anything about the other AI lab's incidents; "all in the same week" for the hacks (disclosed Nov 11–19; some happened earlier).
 
 **Clip question:** "Microsoft, Chase, the FAA and the NSA all went down in the same week, and not one of them was hacked. So what did it?"
 
@@ -144,7 +146,7 @@
 
 ### S — Your AI coding tool is the way in (Chris, ≤5 min)
 
-**O already read the list. This is the deep dive on two of the twelve, plus Binance.**
+**O already read the list. This is the deep dive on two of the thirteen, plus Binance.**
 
 **Shape:** three break-ins, one pattern. Each one is 90 seconds: who got hit, the number, how.
 
