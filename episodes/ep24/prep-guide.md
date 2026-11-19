@@ -5,40 +5,121 @@
 **Off the slate (conflicts of interest): OpenAI and Chainalysis stories. Don't raise either on tape, including as asides.**
 **First episode of the four-week test (Ep 24–27): one lane, "a named victim and a number." Welcome ≤40 s, the marquee starts straight after it, the perp moves to the back half, every block opens on who got hurt and how much.**
 
-> **MARQUEE: "Anthropic is not a safe AI company" (Jackson's topic).** Nov 18, the day Anthropic priced the largest IPO on record ($83 a share, $81.3B raised), a statement with 100+ signers went up at misanthropicstatement.com. Signers run from Nobel laureates and Fields medalists to Gary Marcus, George Hotz and "Beff Jezos." It makes no demand except "reject." The founders sold $1.96B combined and kept 50.1% of the vote.
+> **MARQUEE: the week everything went down (Jackson's lead).** Nov 12–17: Microsoft 365, the FAA, Workday, Claude, AWS, Chase, United, the NSA's classified network and Apple all failed. Not one was an attack. Six of the nine did it to themselves with an update, an upgrade, a patch or a test. Same eight days, twelve companies disclosed break-ins, and eight of those came in through a vendor.
+> **"Anthropic is not a safe AI company" (Jackson's topic).** Nov 18, the day Anthropic priced the largest IPO on record ($83 a share, $81.3B raised), a statement with 100+ signers went up at misanthropicstatement.com. Signers run from Nobel laureates and Fields medalists to Gary Marcus, George Hotz and "Beff Jezos." It makes no demand except "reject." The founders sold $1.96B combined and kept 50.1% of the vote.
 > **Your AI coding tool is the way in.** A key stolen from one AI vendor ended in a backdoored Claude Code extension build offered to up to 5,000 Cursor users. Google says suspected North Korean hackers edited a Claude Code settings file inside crypto firms so every launch pulled a backdoor. Binance's own report says its $6.3B attacker used the exchange's internal AI tool.
 > **Why is Bitcoin sentiment so bad? (Jackson's topic.)** Told through four losers, none of them a price: Binance ($6.3B), the miners (Core Scientific quits mining by year-end; it was 7.5% of revenue), the stablecoin float ($14.2B redeemed in 30 days), and the lobby ($200M+ spent, both chambers lost). Jackson named the topic, so the Ep 11 exception applies: the mood and its structural causes only.
 > **Browsers are out (Jackson's topic), half true.** The standalone agent browsers died this year and got folded back into Chrome, Edge and Gemini. What changed is who gets to act: Amazon blocked Meta's agent, Resy reportedly bans people who book through one, and publishers are down 26–38% on search referrals.
 > **Agentic commerce (standing, Chris): three more banks.** Nov 18: Citi, PNC and Citizens made customers responsible for whatever their agent does, even if the AI tool is hacked. Wells Fargo's terms start Nov 24, three days before Black Friday. Still no confirmed agent-fraud loss anywhere.
 > **Layer-2 series, entry four: Ark and Cashu (Tyler; Jackson's add).** Two ways to pay instantly without a Lightning channel. Ark keeps your exit: three implementations, and the one that got exploited (Second, Oct 5, 0.75 BTC) still has no postmortem on day 46. Cashu gives up the exit for privacy: the mint holds the bitcoin and can't see who pays whom.
-> **Ceiling 52 minutes.** Slate runs ~51. If behind: trim W to four minutes, then fold D into W. M, S and B hold.
+> **Ceiling 52 minutes.** Slate runs ~51. If behind: fold D into W, then trim S to the two Claude Code stories. O, M and B hold.
 
 ## Title candidates (pick before the edit; packaging is a launch-day gate)
 
-1. **100 Scientists Say Anthropic Isn't Safe. It Just Raised $81 Billion.**
-2. A Stolen AI Key Put a Backdoor in 5,000 Developers' Coding Tool
-3. The Biggest IPO Ever Got a Protest Letter on Pricing Day
-4. North Korea Hid a Backdoor in an AI Coding Tool's Settings File
+1. **9 Giant Outages in 6 Days. Zero Hackers.**
+2. Microsoft, Chase, the FAA and the NSA All Went Down. Nobody Was Attacked.
+3. 100 Scientists Say Anthropic Isn't Safe. It Just Raised $81 Billion.
+4. A Stolen AI Key Put a Backdoor in 5,000 Developers' Coding Tool
 
 ## Topics / proposed recording order
 
 | # | Topic | Lead | Opening line | Minutes |
 |---|---|---|---|---|
 | H | Welcome | Jackson | Names, one line, go. No check-in question. | 0:40 |
-| M | MARQUEE: MisAnthropic and the $81B IPO | Jackson | "On Wednesday a hundred scientists said Anthropic is not a safe AI company. The same day it raised eighty-one billion dollars." | 10 |
-| S | Your AI coding tool is the way in | Chris | "Up to five thousand developers were offered a backdoor inside their AI coding tool, and it started with a key stolen from a different AI company." | 8 |
-| B | Why is Bitcoin sentiment so bad? | Tyler + Jackson | "Bitcoin's worst month in years, and I can explain it without saying a single price. Four losers." | 8 |
+| O | MARQUEE: the week everything went down | Jackson | "Nine of the biggest systems in America went down in six days. Not one of them was hacked." | 10 |
+| M | MisAnthropic and the $81B IPO | Jackson | "On Wednesday a hundred scientists said Anthropic is not a safe AI company. The same day it raised eighty-one billion dollars." | 8 |
+| S | Your AI coding tool is the way in | Chris | "Up to five thousand developers were offered a backdoor inside their AI coding tool, and it started with a key stolen from a different AI company." | 5 |
+| B | Why is Bitcoin sentiment so bad? | Tyler + Jackson | "Bitcoin's worst month in years, and I can explain it without saying a single price. Four losers." | 7 |
 | F | Perp of Fortune + the Bitcoin flip | Robot | "The robot's maker went public yesterday. Does it bet on itself?" | 4 |
-| W | Browsers are out | Jackson | "Amazon banned Meta's shopping agent. Resy bans people who use one. Who decides which robots get to use the web?" | 7 |
-| D | Agentic commerce: three more banks | Chris | "Citi's new terms: if your AI agent gets hacked and empties your account, that's on you." | 5 |
+| W | Browsers are out | Jackson | "Amazon banned Meta's shopping agent. Resy bans people who use one. Who decides which robots get to use the web?" | 4 |
+| D | Agentic commerce: three more banks | Chris | "Citi's new terms: if your AI agent gets hacked and empties your account, that's on you." | 3 |
 | L | Layer-2 series: Ark and Cashu | Tyler | "Two ways to hold bitcoin on your phone. One lets you leave whenever you want. The other can't see what you spend." | 7 |
 | Z | Close | All | Perp final, one prediction each | 2 |
 
-- Cold open ≤45 s. Candidates: "Anthropic is not a safe AI company," "used an internal AI tool," "that's on you," the perp reveal.
-- Housekeeping and banter go after M. Nothing sits between the welcome and the marquee.
-- The perp reveal moves to ~27:00. Checks and the final tally stay where they've been.
+- Cold open ≤45 s. Candidates: "not one of them was hacked," "Anthropic is not a safe AI company," "used an internal AI tool," "that's on you," the perp reveal.
+- Housekeeping and banter go after O. Nothing sits between the welcome and the marquee.
+- The perp reveal moves to ~31:00. Checks and the final tally stay where they've been.
 
-### M — MARQUEE: MisAnthropic and the $81B IPO (Jackson, ≤10 min)
+### O — MARQUEE: the week everything went down (Jackson, ≤10 min)
+
+**Shape:** Jackson reads the script (about 2 minutes), then Chris and Tyler react, then the AI question.
+
+**Read this (Jackson):**
+
+> Nine of the biggest systems in America went down in six days. Microsoft 365. The FAA. Workday. Claude. Amazon's cloud. Chase. United Airlines. The NSA's classified network. And Apple.
+>
+> Here's the part nobody expected. Not one of them was hacked. The Director of National Intelligence, the FBI and Homeland Security all said so under oath on Wednesday.
+>
+> So what took them down? We went through every one.
+>
+> Six of the nine, two out of every three, did it to themselves. Somebody shipped a change. Microsoft: a bug that had been sitting there since July, set off by a network change, down for about a day. The FAA: a new router installed during an upgrade, and every departure in the country stopped for more than four hours. Workday: they ran a test of their backup site, the backup connected to the real databases, and payroll was down for eighteen hours. Chase: a software bug after a system update, seven hours. Apple: quote, an internal update. And the NSA: a security patch that didn't come back up.
+>
+> One of the nine, Claude, went down partly because Microsoft did.
+>
+> And two of the nine, Amazon and United, still haven't told anyone why.
+>
+> So that's sixty-seven percent self-inflicted. Eleven percent somebody else's outage. Twenty-two percent no explanation. Zero percent hackers.
+>
+> Now the hackers were busy. They just weren't taking things down. In the same eight days, twelve companies said they'd been broken into. Chase, Visa, Expedia, Notion, Cursor. And here's that breakdown. Eight of the twelve, again two out of three, weren't broken into directly. The attackers came in through a vendor. Chase: a marketing vendor. Visa: a vendor in Asia. Cursor: a key stolen from an AI company it used. One of the twelve was a hole in the company's own product, and that one hole put malicious code on a hundred and seventy-eight other companies' websites. The other three haven't said how.
+>
+> So the week in one line: when it went down, they did it to themselves. When it got hacked, somebody else left the door open.
+
+**The outages (9), with the cause and who stated it:**
+
+| Who | When | How long | Stated cause | Stated by | Bucket |
+|---|---|---|---|---|---|
+| Microsoft 365 | Nov 12–13 | about 24 h | A gateway bug dormant since July, exposed by a Teams traffic shift with ~14% of capacity already offline | Microsoft, preliminary; final report due Nov 20 | Own change |
+| FAA ground stop | Nov 13 | 4+ h | A newly installed router flooded the network during copper-to-fiber work | FAA and DOT, preliminary | Own change |
+| Workday | Nov 13–14 | about 18 h | During a disaster-recovery test, the backup site "unexpectedly connected to Production databases" | Workday status notice | Own change |
+| Chase | Nov 16 | about 7 h | "A software bug in on-premises hardware systems"; CNN's sources say a system update set it off | Chase; no evidence of a cyberattack | Own change |
+| NSA Net | Nov 17 | a day or more | NSA: "scheduled routine maintenance." DNI Clayton and CBS's sources: urgent patching of the PHP2Shell flaws | NSA; DNI on Fox Business | Own change (security patch) |
+| Apple | Nov 17 | several hours | An "internal update" | Apple spokesperson | Own change |
+| Claude | Nov 12–17 | several incidents, 2–2.5 h each | Its Microsoft connector fell with Microsoft; one beta hit by demand; the rest unstated | Anthropic | Someone else's outage |
+| AWS us-east-1 | Nov 15 | 3 h 16 min, 11 services | Not published | Nobody | No cause given |
+| United | Nov 16 | about 90 min | Not published; the pilots' union says the weight-and-balance system | Union memo, not United | No cause given |
+
+- **The math:** 6 of 9 own change (67%) · 1 of 9 someone else's outage (11%) · 2 of 9 no cause given (22%) · 0 of 9 attack. Confirmed caused by AI: 0.
+- **Other banks:** Bank of America, Citi and U.S. Bank customers saw delays only on transactions with Chase. Zelle's network didn't fail. Wells Fargo had its own "temporarily unavailable" notice that nobody has tied to Chase.
+- **Left off the list:** Schwab (a "brief webpage loading issue"), a 93-minute Apple outage on Nov 10 (one source), and another AI lab's incidents (off the slate).
+- Sources: [Control Plane](https://controlplane.com/blog/post/november-2026-outage-wave-explained) · [Yahoo Finance](https://finance.yahoo.com/technology/article/cyberattacks-and-outages-here-are-all-of-the-major-national-disruptions-in-november-181143019.html) · [CSA](https://labs.cloudsecurityalliance.org/research/csa-research-note-november-outage-cluster-correlated-fragili/) · [Tech Times on Chase](https://www.techtimes.com/articles/330883/20261117/chase-outage-bank-says-premise-hardware-bug-slowed-rival-banks-only-through-chase-transactions.htm) · [CBS on the NSA](https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/) · [CBS on United](https://www.cbsnews.com/news/united-airlines-system-outage-departing-flights/) · [Workday](https://thecybersecguru.com/news/workday-outage-november-2026-disaster-recovery-test/)
+
+**The break-ins (12 disclosed Nov 11–19):**
+
+| Who | How they got in | Bucket |
+|---|---|---|
+| JPMorgan Chase | Vendors' marketing files; the n0n gang leaked about 16,000 private-client emails (Cybernews count, not Chase's) | Vendor |
+| Visa | A third-party provider in Asia Pacific; 6,000+ premium customers in the same leak | Vendor |
+| Expedia | A compromised third-party technology provider | Vendor |
+| Infoblox | A data-migration vendor | Vendor |
+| Fireworks AI | Its cloud provider | Vendor |
+| Notion | Through Fireworks; AI chat transcripts for about 1% of customers | Vendor |
+| Cursor | A key it had issued to Fireworks; up to 5,000 users offered a backdoored extension build | Vendor |
+| ConnectWise ScreenConnect | Third-party extensions; attacker tooling on 288 hosts at 48 organizations | Vendor |
+| Optimizely | A flaw in its own product; malicious code on 178 organizations' sites (BBC, CNN, Zoom); about $7,000 of crypto stolen | Own product flaw |
+| Apify | Not disclosed; break-in Nov 9–10, 91,000 customers in the base | Not disclosed |
+| Bitrise | Not disclosed; platform taken offline | Not disclosed |
+| N-able | Not disclosed; one mail-security server | Not disclosed |
+
+- **The math:** 8 of 12 through a vendor (67%) · 1 of 12 own product flaw (8%) · 3 of 12 not disclosed (25%).
+- **Also hit, cause unknown:** Monadnock Community Hospital and Vanderbilt University.
+- Sources: [IBTimes](https://www.ibtimes.co.uk/us-businesses-hit-cyber-incidents-outages-1832974) · [Cybernews](https://cybernews.com/security/visa-jpmorgan-data-breach/) · [TechCrunch on Infoblox](https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information) · [SecurityWeek on Apify](https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/) · [Report URI on Optimizely](https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/) · [The Hacker News on Cursor](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html)
+
+**Then: was it AI?**
+
+- **The officials (Nov 18, House Homeland Security).** DNI Jay Clayton: "These are separate service outages associated with maintenance and technical changes." FBI Deputy Director Christopher Raia: "there is no indication whatsoever that there is any cyber malicious activity related to any of those incidents." [AppleScoop, citing CBS](https://applescoop.org/story/are-outages-connected-cyberattack-dni-dhs-fbi-congress-hearing)
+- **The AI theory.** DHS Secretary Mullin on Hannity, Nov 16, relaying an unnamed tech contact: "I believe that it's the SI." Same interview: "with 98% certainty, we're not seeing a cyber attack." [Fortune](https://fortune.com/2026/11/17/trump-administration-ai-outages-mullin-gary-marcus-banks-airlines/)
+- **The denials.** Microsoft: "This was a technical issue not related to cyber or AI/agents." FAA Administrator Bryan Bedford: "We see zero evidence of anything nefarious, and zero evidence of anything AI related."
+- **The one real AI link.** The NSA patch was for PHP2Shell, the flaw from Ep 20 that an AI helped find. Sen. Mark Warner: "If you're trying to patch 10 or 12 in a single week, you have these kind of outages." AI finds the bugs faster than anyone can safely patch them.
+- **Callbacks:** Ep 20 (PHP2Shell: "don't tell Claude about the PHP bug"); Ep 22 (Paraguay: half a country used one bank); Ep 23 bench (Fireworks and Notion, unaired).
+- **Debate:**
+  1. **Chris:** two out of three break-ins came through a vendor. Is "we weren't hacked, our vendor was" a defense, or the whole problem?
+  2. **Tyler:** one bank's bug delayed payments at four others. Bitcoin didn't go down this week. Is that the pitch, or does nobody care until it's their payroll?
+  3. **Jackson:** nobody blames AI on the record, and the one outage with an AI link was a patch for a bug AI found. Is the patch rush the new outage machine?
+- **Do NOT say:** any outage was a cyberattack; AI caused any of them (Mullin's theory is one unnamed source; nothing confirmed); Chase's outage and the Chase vendor breach are connected (the bank says separate; the leak listing came hours before the outage, which proves nothing); "16,000 Chase customers" as the bank's number; Microsoft's cause as final (preliminary); the FAA's cause as final; the NSA said PHP (the DNI and CBS's sources did; the NSA said "maintenance"); AWS or United's cause; the other banks failed on their own; anything about the other AI lab's incidents; "all in the same week" for the hacks (disclosed Nov 11–19; some happened earlier).
+
+**Clip question:** "Microsoft, Chase, the FAA and the NSA all went down in the same week, and not one of them was hacked. So what did it?"
+
+### M — MisAnthropic and the $81B IPO (Jackson, ≤8 min)
 
 **Shape:** the statement first (90 s), then the IPO numbers, then the two weeks that set it up, then the debate.
 
@@ -61,7 +142,9 @@
 
 **Clip question:** "The day Anthropic raised eighty-one billion dollars, a hundred scientists signed one sentence: Anthropic is not a safe AI company. Who's right?"
 
-### S — Your AI coding tool is the way in (Chris, ≤8 min)
+### S — Your AI coding tool is the way in (Chris, ≤5 min)
+
+**O already read the list. This is the deep dive on two of the twelve, plus Binance.**
 
 **Shape:** three break-ins, one pattern. Each one is 90 seconds: who got hit, the number, how.
 
@@ -101,7 +184,7 @@
 
 **Clip question:** "Bitcoin's oldest public miners are quitting to rent their buildings to AI companies. One of them made seven percent of its revenue from mining last quarter. Is that the end of something?"
 
-### F — Perp of Fortune + the Bitcoin flip (≤4 min, ~27:00)
+### F — Perp of Fortune + the Bitcoin flip (≤4 min, ~31:00)
 
 - Pick an opener from the [five reusable Perp of Fortune intros](../../perp-of-fortune-intros.md). Read the disclosure before the bit.
 - **Ep 23's record:** long Google 20× (+$4.28), Bitcoin down by random draw (+$22.68, the first flip win).
@@ -109,7 +192,7 @@
 - **The flip:** same hourly Polymarket market. One flip, no averaging down.
 - Caption and title for any perp short carry the P&L.
 
-### W — Browsers are out (Jackson, ≤7 min)
+### W — Browsers are out (Jackson, ≤4 min)
 
 **Premise check:** half true. The agent browsers died and their features moved into the browsers people already had. The real story is gatekeeping.
 
@@ -126,7 +209,7 @@
 
 **Clip question:** "Amazon banned Meta's shopping robot from its store. Resy bans humans who send one. Who gets to decide which AI is allowed to use the internet?"
 
-### D — Agentic commerce: three more banks (Chris, ≤5 min, straight after W)
+### D — Agentic commerce: three more banks (Chris, ≤3 min, straight after W)
 
 - **Nov 18.** Citi's updated agreement makes customers responsible for agent activity even if the AI tool is hacked or leaks credentials. Citi: "we want customers to understand the risks associated with sharing banking credentials or authorizing those tools." PNC changed terms the same day; Citizens emailed customers. JPMorgan and Bank of America moved in October. No regulator has responded. [TechCrunch via Yahoo](https://finance.yahoo.com/technology/ai/articles/more-banks-says-customers-using-173210659.html)
 - **Nov 24.** Wells Fargo, from its own page: "requests submitted through the tool may be treated as if they came directly from you" and "We also reserve the right to restrict or block access from certain third-party AI tools." [Wells Fargo](https://www.wellsfargo.com/mobile-online-banking/updates/)
@@ -184,11 +267,11 @@
 
 ## Host pre-read / before recording
 
-- **Everyone (10 min):** [the statement](https://misanthropicstatement.com), [CNBC on the pricing](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html), [The Hacker News on Cursor](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html).
-- **Jackson:** check ANT's first day and any Anthropic response the morning of; open the Stock Titan governance claims against the filing; pick the cold-open beats and the title.
+- **Everyone (10 min):** the O tables below the script, [the statement](https://misanthropicstatement.com), [CNBC on the pricing](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html), [The Hacker News on Cursor](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html).
+- **Jackson:** rehearse the O script out loud twice; check for Microsoft's final report (due Nov 20) and any AWS or United root cause, and move them between buckets if one lands; check ANT's first day and any Anthropic response the morning of; open the Stock Titan governance claims against the filing; pick the cold-open beats and the title.
 - **Chris:** open [Cursor's own post](https://cursor.com/blog/security-incident-update) and [Google's report](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold) (the desk only has both secondhand); read the TechCrunch bank piece; have the $14.2B stablecoin answer ready.
 - **Tyler:** rehearse the Ark and Cashu explainers to 90 seconds each; check second.tech for a postmortem and blog.liquid.net for a peg-out reopening; skim the [Cashu Q2 highlights](https://blog.cashu.space/q2-2026-highlights/); pick both grades and rule on whether Cashu counts as a layer two; prepare the contrarian corner in B.
 - **Whoever runs the perp:** confirm the ANT perp's status, place the flip, confirm the dashboard share.
-- **Unverified, check before quoting:** the IPO governance details; the Nov 10 "threshold met" filing claim; Hendrycks's X posts; Cursor's 5,000 and 0.01%; Google's report text; the publisher traffic figures; the Wells Fargo Section 15 wording; whether ANT traded; every Cashu item (BitNotes, Turbo UNIT, enclave mints, Nutshell 0.22 are from search summaries).
+- **Unverified, check before quoting:** in O, the Apify, N-able, Infoblox and Expedia entries (search summaries or one outlet), Bitrise and ConnectWise (one outlet), and the Fireworks "via its cloud provider" detail; the IPO governance details; the Nov 10 "threshold met" filing claim; Hendrycks's X posts; Cursor's 5,000 and 0.01%; Google's report text; the publisher traffic figures; the Wells Fargo Section 15 wording; whether ANT traded; every Cashu item (BitNotes, Turbo UNIT, enclave mints, Nutshell 0.22 are from search summaries).
 - **Fact guardrails:** no BTC price or ETF numbers anywhere, including B and the perp wrap; no OpenAI or Chainalysis; no employer names; the two Claude Code stories are a poisoned cache and an edited config, not product bugs; North Korea attributions are "suspected" or "per the FBI"; Peña is accused; Megaspeed is under investigation.
 - **Close:** perp and flip result, one prediction each. Tease only what a host claims: Black Friday's first agent numbers, Utexo's Nov 28 launch, the next L2 entry.
