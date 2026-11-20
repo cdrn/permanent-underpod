@@ -1,44 +1,39 @@
 # Underpod — Ep 24 — Topics
 
-**Record: Fri Nov 20, 2026 presumed; confirm with hosts. Research checked Nov 19.**
+**Record: Fri Nov 20, 2026 presumed; confirm with hosts. Research checked Nov 19 (some sources carry Nov 19 evening updates).**
 **Panel: Jackson (AI / Bitcoin products) · Chris (stablecoins / security) · Tyler (Bitcoin / Lightning)**
-**Off the slate (conflicts of interest): OpenAI and Chainalysis stories. Don't raise either on tape, including as asides.**
-**First episode of the four-week test (Ep 24–27): one lane, "a named victim and a number." Welcome ≤40 s, the marquee starts straight after it, the perp moves to the back half, every block opens on who got hurt and how much.**
+**Conflicts of interest: OpenAI stays off the slate, including as asides. Chainalysis is on for segment C only, on Jackson's call (Nov 19). No employer names, and nobody says where they've built screening.**
+**First episode of the four-week test (Ep 24–27): one lane, "a named victim and a number." Welcome ≤40 s, the lead starts straight after it, the perp sits in the back half, every block opens on who got hurt and how much.**
+**Four topics (Jackson, Nov 19): outages, the Chainalysis attack, MisAnthropic and the IPO-ICO convergence, Ark and Cashu. Everything else is prepared bench.**
 
-> **MARQUEE: the week everything went down (Jackson's lead).** Nov 12–17: Microsoft 365, the FAA, Workday, Claude, AWS, Chase, United, the NSA's classified network and Apple all failed. Not one was an attack. Six of the nine did it to themselves with an update, an upgrade, a patch or a test. Same eight days, thirteen companies disclosed break-ins, and nine of those came in through a vendor.
-> **"Anthropic is not a safe AI company" (Jackson's topic).** Nov 18, the day Anthropic priced the largest IPO on record ($83 a share, $81.3B raised), a statement with 100+ signers went up at misanthropicstatement.com. Signers run from Nobel laureates and Fields medalists to Gary Marcus, George Hotz and "Beff Jezos." It makes no demand except "reject." The founders sold $1.96B combined and kept 50.1% of the vote.
-> **Your AI coding tool is the way in.** A key stolen from one AI vendor ended in a backdoored Claude Code extension build offered to up to 5,000 Cursor users. Google says suspected North Korean hackers edited a Claude Code settings file inside crypto firms so every launch pulled a backdoor. Binance's own report says its $6.3B attacker used the exchange's internal AI tool.
-> **Why is Bitcoin sentiment so bad? (Jackson's topic.)** Told through four losers, none of them a price: Binance ($6.3B), the miners (Core Scientific quits mining by year-end; it was 7.5% of revenue), the stablecoin float ($14.2B redeemed in 30 days), and the lobby ($200M+ spent, both chambers lost). Jackson named the topic, so the Ep 11 exception applies: the mood and its structural causes only.
-> **Browsers are out (Jackson's topic), half true.** The standalone agent browsers died this year and got folded back into Chrome, Edge and Gemini. What changed is who gets to act: Amazon blocked Meta's agent, Resy reportedly bans people who book through one, and publishers are down 26–38% on search referrals.
-> **Agentic commerce (standing, Chris): three more banks.** Nov 18: Citi, PNC and Citizens made customers responsible for whatever their agent does, even if the AI tool is hacked. Wells Fargo's terms start Nov 24, three days before Black Friday. Still no confirmed agent-fraud loss anywhere.
-> **Layer-2 series, entry four: Ark and Cashu (Tyler; Jackson's add).** Two ways to pay instantly without a Lightning channel. Ark keeps your exit: three implementations, and the one that got exploited (Second, Oct 5, 0.75 BTC) still has no postmortem on day 46. Cashu gives up the exit for privacy: the mint holds the bitcoin and can't see who pays whom.
-> **Ceiling 52 minutes.** Slate runs ~51. If behind: fold D into W, then trim S to the two Claude Code stories. O, M and B hold.
+> **1. The week everything went down (Jackson's lead).** Nov 12–17: Microsoft 365, the FAA, Workday, Claude, AWS, Chase, United, the NSA's classified network and Apple all failed. Not one was an attack. Six of the nine did it to themselves with an update, an upgrade, a patch or a test. Same eight days, thirteen companies disclosed break-ins, and nine of those came in through a vendor.
+> **2. The Chainalysis attack.** The company exchanges use to check where crypto came from disclosed a breach on Oct 30. It pulled its own tools offline: the tracing tool for about 5 days, the screening tool for about 3. Exchanges in Japan and Brazil stopped withdrawals. The incident is still open on its status page, day 17. Nobody has named an attacker or a cause.
+> **3. MisAnthropic, the IPO, and IPOs turning into ICOs.** Nov 18: 100+ signers say "Anthropic is not a safe AI company." Same day it raised $81.3B by selling about 7% of itself. The 2024 token launches everyone mocked as "low float, high FDV" floated 12%. Meanwhile tokens are buying back supply and converting to shares. Chris closes with his contrarian take on GTA 6.
+> **4. Layer-2 series, entry four: Ark and Cashu (Tyler).** Two ways to pay instantly without a Lightning channel. Ark keeps your exit: three implementations, and the one that got exploited (Second, Oct 5, 0.75 BTC) still has no postmortem on day 46. Cashu gives up the exit for privacy: the mint holds the bitcoin and can't see who pays whom.
+> **Ceiling 52 minutes.** Slate runs ~44. The slack is for the debates; if a block runs short, pull D (agentic commerce, 3 min) off the bench first, since it's the standing topic.
 
 ## Title candidates (pick before the edit; packaging is a launch-day gate)
 
 1. **9 Giant Outages in 6 Days. Zero Hackers.**
-2. Microsoft, Chase, the FAA and the NSA All Went Down. Nobody Was Attacked.
-3. 100 Scientists Say Anthropic Isn't Safe. It Just Raised $81 Billion.
-4. A Stolen AI Key Put a Backdoor in 5,000 Developers' Coding Tool
+2. The Company That Tracks Crypto Hackers Got Hacked. It's Still Not Over.
+3. Anthropic Sold 7% of Itself for $81 Billion. Crypto Got Mocked for 12%.
+4. Microsoft, Chase, the FAA and the NSA All Went Down. Nobody Was Attacked.
 
 ## Topics / proposed recording order
 
 | # | Topic | Lead | Opening line | Minutes |
 |---|---|---|---|---|
 | H | Welcome | Jackson | Names, one line, go. No check-in question. | 0:40 |
-| O | MARQUEE: the week everything went down | Jackson | "Nine of the biggest systems in America went down in six days. Not one of them was hacked." | 10 |
-| M | MisAnthropic and the $81B IPO | Jackson | "On Wednesday a hundred scientists said Anthropic is not a safe AI company. The same day it raised eighty-one billion dollars." | 8 |
-| S | Your AI coding tool is the way in | Chris | "Up to five thousand developers were offered a backdoor inside their AI coding tool, and it started with a key stolen from a different AI company." | 5 |
-| B | Why is Bitcoin sentiment so bad? | Tyler + Jackson | "Bitcoin's worst month in years, and I can explain it without saying a single price. Four losers." | 7 |
-| F | Perp of Fortune + the Bitcoin flip | Robot | "The robot's maker went public yesterday. Does it bet on itself?" | 4 |
-| W | Browsers are out | Jackson | "Amazon banned Meta's shopping agent. Resy bans people who use one. Who decides which robots get to use the web?" | 4 |
-| D | Agentic commerce: three more banks | Chris | "Citi's new terms: if your AI agent gets hacked and empties your account, that's on you." | 3 |
+| O | The week everything went down | Jackson | "Nine of the biggest systems in America went down in six days. Not one of them was hacked." | 10 |
+| C | The Chainalysis attack | Jackson + Chris | "One break-in isn't on that list. The company that tracks crypto hackers got hacked, and three weeks later it still isn't over." | 8 |
+| M | MisAnthropic, the $81B IPO, and IPOs turning into ICOs (with Chris on GTA 6) | Jackson, then Chris | "On Wednesday a hundred scientists said Anthropic is not a safe AI company. The same day it sold seven percent of itself for eighty-one billion dollars." | 12 |
+| F | Perp of Fortune + the Bitcoin flip | Robot | "The robot's maker went public this week. Does it bet on itself?" | 4 |
 | L | Layer-2 series: Ark and Cashu | Tyler | "Two ways to hold bitcoin on your phone. One lets you leave whenever you want. The other can't see what you spend." | 7 |
 | Z | Close | All | Perp final, one prediction each | 2 |
 
-- Cold open ≤45 s. Candidates: "not one of them was hacked," "Anthropic is not a safe AI company," "used an internal AI tool," "that's on you," the perp reveal.
-- Housekeeping and banter go after O. Nothing sits between the welcome and the marquee.
-- The perp reveal moves to ~31:00. Checks and the final tally stay where they've been.
+- Cold open ≤45 s. Candidates: "not one of them was hacked," "who screens the screener," "Anthropic is not a safe AI company," Chris's GTA 6 line, the perp reveal.
+- Housekeeping and banter go after O. Nothing sits between the welcome and the lead.
+- The perp reveal lands at ~31:00, straight after M. Checks and the final tally stay where they've been.
 
 ### O — MARQUEE: the week everything went down (Jackson, ≤10 min)
 
@@ -112,41 +107,186 @@
 - **The AI theory.** DHS Secretary Mullin on Hannity, Nov 16, relaying an unnamed tech contact: "I believe that it's the SI." Same interview: "with 98% certainty, we're not seeing a cyber attack." [Fortune](https://fortune.com/2026/11/17/trump-administration-ai-outages-mullin-gary-marcus-banks-airlines/)
 - **The denials.** Microsoft: "This was a technical issue not related to cyber or AI/agents." FAA Administrator Bryan Bedford: "We see zero evidence of anything nefarious, and zero evidence of anything AI related."
 - **The one real AI link.** The NSA patch was for PHP2Shell, the flaw from Ep 20 that an AI helped find. Sen. Mark Warner: "If you're trying to patch 10 or 12 in a single week, you have these kind of outages." AI finds the bugs faster than anyone can safely patch them.
-- **Callbacks:** Ep 20 (PHP2Shell: "don't tell Claude about the PHP bug"); Ep 22 (Paraguay: half a country used one bank); Ep 23 bench (Fireworks and Notion, unaired).
+- **Callbacks:** Ep 20 (PHP2Shell: "don't tell Claude about the PHP bug"); Ep 22 (Paraguay: half a country used one bank); Ep 23 bench (Fireworks and Notion, unaired). The Cursor and Fireworks detail is in the bench segment S if anyone asks.
 - **Debate:**
   1. **Chris:** nine of thirteen break-ins came through a vendor. Is "we weren't hacked, our vendor was" a defense, or the whole problem?
   2. **Tyler:** one bank's bug delayed payments at four others. Bitcoin didn't go down this week. Is that the pitch, or does nobody care until it's their payroll?
   3. **Jackson:** nobody blames AI on the record, and the one outage with an AI link was a patch for a bug AI found. Is the patch rush the new outage machine?
 - **Do NOT say:** any outage was a cyberattack; AI caused any of them (Mullin's theory is one unnamed source; nothing confirmed); Chase's outage and the Chase vendor breach are connected (the bank says separate; the leak listing came hours before the outage, which proves nothing); "16,000 Chase customers" as the bank's number; card numbers or payment data leaked (all three say no); one vendor was behind Visa, Mastercard and Chase (a researcher's inference); Microsoft's cause as final (preliminary); the FAA's cause as final; the NSA said PHP (the DNI and CBS's sources did; the NSA said "maintenance"); AWS or United's cause; the other banks failed on their own; anything about the other AI lab's incidents; "all in the same week" for the hacks (disclosed Nov 11–19; some happened earlier).
 
+- **Hand-off to C:** "One break-in isn't on that list, because it started three weeks ago and it still isn't over."
+
 **Clip question:** "Microsoft, Chase, the FAA and the NSA all went down in the same week, and not one of them was hacked. So what did it?"
 
-### M — MisAnthropic and the $81B IPO (Jackson, ≤8 min)
+### C — The Chainalysis attack (Jackson + Chris, ≤8 min)
 
-**Shape:** the statement first (90 s), then the IPO numbers, then the two weeks that set it up, then the debate.
+**Shape:** Jackson reads the script (about 75 seconds), then who stopped, then the walk-back, then the debate. This was Ep 23's marquee and never aired, so nothing here is a repeat.
 
-- **The statement.** Key lines, verbatim: Anthropic warns recursive self-improvement could "escape human control, yet races to build it first"; it "uses safety branding to court investors, employees, and the public" while it "quietly weakened its safety pledges and lobbied for self-serving regulation"; "Anthropic is not a safe AI company"; "we must reject its reckless attempt to amass power in the name of the greater good." No policy demand. [misanthropicstatement.com](https://misanthropicstatement.com)
+**Read this (Jackson):**
+
+> One break-in isn't on that list, because it started three weeks ago and it still isn't over.
+>
+> Chainalysis. If you've never heard of it: when you send crypto to an exchange, something has to check where that money came from. Is it stolen, is it sanctioned, is it from a scam. For nine of the ten biggest exchanges, that something is Chainalysis. It's also the software the FBI and the IRS use to trace crypto, and the tracing that gets used in court.
+>
+> On October 30 it told customers an attacker was inside its systems. Its words: "an external actor using offensive agentic techniques." AI agents.
+>
+> At first it said no passwords and no login tokens were touched. Five days later it said the opposite: password hashes and live login tokens for every single user were exposed.
+>
+> So it pulled its own plug. The tracing tool was down about five days. The screening tool, the one exchanges call before they let your money move, was down about three. One product was off for seventeen days and is only partly back.
+>
+> And within minutes of the screening tool going dark, an exchange in Japan stopped crypto withdrawals. For three days.
+>
+> It's now three weeks since the disclosure. The incident is still marked unresolved. Nobody has said who did it or how they got in.
+
+- **What it is, one more beat.** Founded 2014, out of the Mt. Gox investigation. Three jobs: screen exchange flows in real time (KYT), trace for investigators and courts (Reactor), and coordinate freezes with stablecoin issuers and police. It claims 1,500+ customers. About $145M in federal contracts since 2008 (IRS, DOJ/FBI, DHS/ICE). Last public valuation $8.6B (2022). [USAspending](https://www.usaspending.gov/search)
+- **How long, product by product (our math from the status page's UTC timestamps, not Chainalysis's words):**
+
+| What | Off | Back | Down |
+|---|---|---|---|
+| Reactor (tracing) | Nov 2 | Nov 7 | about 5 days |
+| KYT and address screening | Nov 4 | Nov 7 (phased from Nov 6) | about 3 days (76 h) |
+| Data Solutions | Nov 2 | Nov 10 | about 8 days |
+| Rapid | Nov 2 | Nov 19, core functions only, allowlisted customers | 17 days, partly back |
+| Academy and Knowledge Base | Nov 3–4 | still down Nov 19 | 16+ days |
+| The incident | first status entry Nov 2 | still "Unresolved" Nov 19 | 17+ days; 20 since the Oct 30 disclosure |
+
+- **How long the attacker was inside: unknown.** The intrusion was "this month" (October); no date given. Chainalysis called it "an ongoing multifront cyberattack" on Nov 4. [Chainalysis post](https://www.chainalysis.com/blog/security-incident-october-30/) (last updated Nov 10) · [Status page](https://status.chainalysis.com/)
+- **The walk-back.** Oct 30: "no evidence of unauthorized access to investigation content, authentication credentials, or session tokens." Night of Nov 4: "names, usernames, password hashes and live tokens for all Chainalysis users were exposed to a malicious actor," discovered Nov 2. Also Nov 4: an "on-path attack" exposed "a subset of customer passwords," and some customers' KYT accounts were accessed. It still says "no evidence that any investigations data has been accessed or Chainalysis attribution data has been manipulated." [The Record](https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack) · [American Banker](https://www.americanbanker.com/news/chainalysis-discloses-apparent-breach-of-customers-accounts)
+- **Who stopped.**
+  - **Coincheck (Japan):** a "failure of an external on-chain analysis service" from 15:04 UTC Nov 4, six minutes before Chainalysis's status page said KYT was down. Pending withdrawals cancelled; sends resumed Nov 8. Vendor never named. [Coincheck](https://corporate.coincheck.com/news/DNrbKITx)
+  - **Nubank (Brazil):** paused transfers to external wallets Nov 6, "a failure at an external transaction-verification provider"; back the same night. [Exame](https://exame.com/future-of-money/nubank-suspende-depositos-e-saques-diretos-de-criptomoedas/)
+  - **Relayed only:** Mercado Pago blocked some transfers; ICONOMI reportedly paused withdrawals and named Chainalysis (aggregators citing X posts). [Crypto Times](https://www.cryptotimes.io/2026/11/07/nubank-mercado-pago-halt-crypto-transfers-over-provider-issues/) · [TokenPost](https://www.tokenpost.com/news/technology/50635)
+  - **Not found:** any US exchange, stablecoin issuer, bank or regulator on record. No lawsuit. Nobody on record switching vendors or running unscreened.
+- **Who did it: nobody knows.** No claim, no ransom note, no post-incident report. Chainalysis has never explained "offensive agentic techniques." Part of its fix: "using sophisticated large language models to support a broader review of our platform's security." Aftershocks kept coming: five shorter disruptions Nov 8–14, and logins now sit behind an emailed one-time code.
+- **The twist (Nov 12).** A week after the breach, Tron and Tether made Chainalysis the analytics partner on a new "Digital Crime Task Force" for USDT on Tron, replacing the unit they ran with a rival. Chainalysis investigates, Tether freezes. [The Block](https://www.theblock.co/news/business/2026-11-12-tron-tether-chainalysis-new-alliance-438514)
+- **The courtroom angle (Tyler).** Sept 25: the D.C. Circuit upheld the Bitcoin Fog conviction. From the opinion: "Both experts admitted that Reactor was not peer-reviewed and that they did not know the error rate for the software." So "no evidence the attribution data was manipulated" is the whole product. [Opinion](https://media.cadc.uscourts.gov/opinions/docs/2026/09/24-3161-2194974.pdf)
+- **Tie to O.** Same pattern as the vendor break-ins: Coincheck wasn't hacked, its vendor was. And Bitcoin kept settling the whole time; only the compliance layer stopped.
+- **Callbacks:** Ep 21 4:36 (the Binance hack: Circle and Tether froze $2.4B in 30 minutes with "industry partners"); Ep 19 (Ledger: the chip held, the screen leaked; here the chain held and the login leaked).
+- **Debate:**
+  1. **Jackson:** Coincheck failed closed for three days. Nubank was back the same night. When the screening call times out, does the send go, and who signs off?
+  2. **Chris:** a week after the breach, Tether put Chainalysis on its freeze desk. Is the freeze rail now a single point of failure? What does an intruder learn from a live screening session?
+  3. **Tyler:** the surveillance company's own user list leaked, investigators included, and a court says tracing software needn't be peer-reviewed. Should the heuristics be open, the way we'd demand of a wallet?
+  4. **All:** "offensive agentic techniques," answered by "sophisticated large language models." First agent-versus-agent breach, or is "agentic" the new "sophisticated nation-state actor"?
+- **Do NOT say:** "outage" without "breach" (Chainalysis took itself offline); "it happened Oct 30" (that's the disclosure); "down for three weeks" (the screening tool was down about 3 days, tracing about 5; the incident is open); any clock time (the blog and status page disagree); the attackers were inside for N days (unknown); investigation or attribution data was stolen or altered (it says no evidence); all users' passwords were taken (hashes and live tokens for all; plaintext for "a subset"); North Korea, ransomware, or any named group (the "Storm-0940" attribution online traces to AI-written summaries); a link to Binance (Chainalysis denies one) or to Microsoft's ARTEX post; Coincheck, Nubank or Mercado Pago named Chainalysis (none did; say "the timing matches within minutes"); exchanges ran unscreened or launderers used the window; customers left for a rival; any market-share number; the founding year or "1,500 customers" as verified (company claims and Wikipedia); employer names, or where any host has built screening.
+
+**Clip question:** "The company that tracks crypto hackers got hacked, it says by AI agents. Minutes later an exchange in Japan stopped withdrawals for three days. Who screens the screener?"
+
+### M — MisAnthropic, the $81B IPO, and IPOs turning into ICOs (Jackson, then Chris; ≤12 min)
+
+**Shape:** the statement (2 min) · the IPO numbers (2 min) · the convergence (5 min) · Chris's GTA 6 take (3 min). GTA 6 sits here on a guess at what Jackson meant; move it if Chris wants it elsewhere.
+
+**Part 1: the statement**
+
+- **The text.** Key lines, verbatim: Anthropic warns recursive self-improvement could "escape human control, yet races to build it first"; it "uses safety branding to court investors, employees, and the public" while it "quietly weakened its safety pledges and lobbied for self-serving regulation"; "Anthropic is not a safe AI company"; "we must reject its reckless attempt to amass power in the name of the greater good." No policy demand. [misanthropicstatement.com](https://misanthropicstatement.com)
 - **Who's behind it.** The site says "a broad coalition." The contact emails are on the Center for AI Safety's domain and CAIS put out the release Nov 18. Say "CAIS-launched," not "organized." [CAIS](https://safe.ai/news/anthropic-is-not-a-safe-ai-company)
 - **Who signed.** Steven Pinker, Laurence Tribe, Stephen Fry, Nobel laureates Oliver Hart and Sheldon Glashow, Judea Pearl, Fields medalists Gowers, Scholze, Maynard and Mumford, Max Tegmark, Lawrence Lessig, Douglas Hofstadter, Thomas Wolf (Hugging Face), Igor Babuschkin (xAI co-founder), Tristan Harris, Nate Soares, Gary Marcus, George Hotz, Guillaume Verdon, and Dan Hendrycks. The count keeps moving; say "more than a hundred."
-- **Hendrycks.** Verbatim: "You cannot credibly claim to be safe while weakening your own previous safety commitments." On X: "Anthropic has almost, but not entirely, captured the ecosystem meant to hold it accountable." He also said he'll stop advising AI companies until there's a slowdown or moratorium (via Gizmodo). His past adviser roles: xAI and Scale AI. [Gizmodo](https://gizmodo.com/the-accelerationists-are-trying-to-stop-anthropic-2000841831) · [Fortune, 2024](https://fortune.com/2024/11/13/scale-ai-dan-hendrycks-elon-musk-xai-safety-trump-ties/)
+- **Hendrycks.** Verbatim: "You cannot credibly claim to be safe while weakening your own previous safety commitments." He also said he'll stop advising AI companies until there's a slowdown or moratorium (via Gizmodo). [Gizmodo](https://gizmodo.com/the-accelerationists-are-trying-to-stop-anthropic-2000841831)
 - **The asterisks.** Gizmodo: the text is vague enough to unite doomers and accelerationists, and some signatures "should probably be accompanied by an asterisk." Nathan Lambert declined: "too strong for my taste." SpaceX, which owns xAI, rents its Colossus data center to Anthropic. No Anthropic response found as of Nov 19.
-- **The IPO (Nov 18).** $83 against a $70–$78 range; upsized from 825M to about 980M shares; $81.3B raised, past SpaceX's $75B in June. CNBC puts it near $1.5T fully diluted. Google, Microsoft, Nvidia, AMD and others buy $26B more at the IPO price. The seven co-founders each sell 3.38M shares: $1.96B combined, about $280M each. First trade was due Nov 19 on Nasdaq as "ANT." [CNBC](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html)
-- **Who answers to whom (secondary source citing filings; check before quoting).** One Class F share held by the co-founders carries 50.1% of the vote. The Long-Term Benefit Trust elects a board majority. Retail got up to 20%. Up to 315M employee shares can sell from day one. [Stock Titan](https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026)
-- **The two weeks before.** Nov 5, METR: Anthropic's research is moving "1.9x [95% confidence interval: 1.5–2.8x]" faster, "perhaps ≈80%" of it from AI; "Anthropic redacted a majority of the evidence we found most informative"; the compute check was "canceled before METR came to any substantive conclusions." Nov 9: it shipped a model with kernel-optimization and model-architecture skills held "at about the level of Opus 5.5." Nov 10: the amended filing reportedly says its own AI-accelerated-research threshold has been met (secondary). [METR](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/) · [Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2) · [TNW](https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing)
-- **Grade the tape (Ep 23, 7:41).** We asked whether Nvidia's open-model push survives "empty suit CEO number 11." Nov 17, Colette Kress: Nvidia is "committed to fostering a vibrant open model ecosystem" so "every country, company, and industry can build its own intelligence." Twenty seconds. [TechCrunch](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/)
-- **Callbacks:** Ep 23 I (the slowdown lab sprints; unaired in full); Ep 9/10 (Mythos gating); Ep 21 bench (the first S-1).
-- **Debate:**
-  1. **Jackson:** it capped the exact skill the auditor says is driving the speed-up, then raised $81B. Is that the brake or the race the letter describes?
-  2. **Chris:** founders hold 50.1% of the vote and a trust picks the board. If a stablecoin issuer told you "trust our structure," what would you ask for instead?
-  3. **Tyler:** a letter signed by both Nate Soares and Beff Jezos. Does the breadth make it credible, or does it mean it says nothing?
-  4. **If time:** the letter demands nothing. What would you have made it demand?
-- **Do NOT say:** any ANT opening price, pop or close unless you've checked it the morning of (gray-market figures were circulating); "$1.96B per founder" (combined); "METR found exactly 2×"; "CAIS organized it"; a fixed signer count; that Hendrycks currently advises xAI; that Anthropic responded; Verdon's claim that Anthropic caused Huang's exit; "$1.5T" as Anthropic's own number; any buy/sell call; other labs as a comparison (off the slate).
+- **If asked what set it off.** Nov 5, METR: Anthropic's research is moving "1.9x [95% confidence interval: 1.5–2.8x]" faster, "perhaps ≈80%" of it from AI, and "Anthropic redacted a majority of the evidence we found most informative." Nov 9: it shipped a model with kernel-optimization and model-architecture skills held "at about the level of Opus 5.5." [METR](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/) · [Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
-**Clip question:** "The day Anthropic raised eighty-one billion dollars, a hundred scientists signed one sentence: Anthropic is not a safe AI company. Who's right?"
+**Part 2: the IPO**
+
+- **Pricing (Nov 18).** $83 against a $70–$78 range; upsized from 825M to about 980M shares; $81.3B raised, past SpaceX's $75B in June. Google, Microsoft, Nvidia, AMD and others bought $26B more at the IPO price. The seven co-founders each sold 3.38M shares: $1.96B combined, about $280M each. [CNBC](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html)
+- **Day one (Nov 19, Nasdaq: ANT).** Opened $111.50, up 34%. Closed $97.17, up 17%. Half the pop was gone by the bell. 846M shares traded, against 522M on SpaceX's first day. Fully diluted value at the close: about $1.76T (CNN) to $1.8T (CNBC). Recheck the morning of. [CNN](https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo) · [CNBC](https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html)
+- **Who answers to whom.** Five share classes. The public's Class A is capped at 49.9% of the vote. One Class F share, held by the founders' company, carries 50.1% and no economics. One Class T share, held by the Long-Term Benefit Trust, elects 4 of 7 directors. [Intelligize](https://www.intelligize.com/one-share-rules-them-all-in-anthropic-ipo/) · [S-1](https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm)
+
+**Part 3: the convergence (the new part)**
+
+**Read this (Jackson), about 60 seconds:**
+
+> Crypto has a phrase for a bad token launch: low float, high FDV. Float is how much actually trades. FDV, fully diluted value, is what the whole thing would be worth if every token existed today. The scam version: sell five percent to the public, print a giant headline valuation, and then insiders unlock on top of you for years.
+>
+> In 2024 Binance published a whole report complaining about it. The average new token was floating twelve percent.
+>
+> Anthropic just floated about seven. SpaceX in June floated about four. Those are the two biggest IPOs in history. A normal IPO used to sell twenty to thirty percent.
+>
+> And here's the unlock. By February second, up to one point six billion Anthropic shares can come off lockup. The IPO itself was nine hundred eighty million. More stock unlocks in ten weeks than was sold in the offering.
+>
+> Meanwhile the tokens are going the other way. Hyperliquid has spent one point three billion dollars buying back its own token out of revenue. Uniswap turned on fees. One project just voted ninety-eight percent to swap its token for actual shares.
+>
+> So the IPOs are turning into ICOs, and the ICOs are turning into stocks.
+
+- **Market cap versus FDV, in one line.** For Anthropic, about $81B of stock was sold into a company valued near $1.5T fully diluted at the IPO price. The price is set by the 7%. The headline is set by the 100%.
+- **The IPO side.**
+  - Floats: Anthropic about 7.4%, SpaceX 4.2–4.3%, Figma 8.7%, Circle about 15% (2025). [FourWeekMBA](https://fourweekmba.com/ai-anthropic-vs-spacex-ipo-7-4-float-vs-4-2-1-1t-vs-1-8t/) · [Fortune](https://fortune.com/2026/06/03/spacex-ipo-share-price-index-funds-valuation-public/)
+  - The old norm: about 30% in the 1980s, 28% in 2002–07, about 20% by 2020. [a16z](https://a16z.com/in-defense-of-the-ipo-and-how-to-improve-it-part-2-peeking-behind-the-pop/)
+  - The unlock calendar (secondary sources): about 15.5B shares over 23 dates; up to 315M employee shares on day one; up to about 1.6B by Feb 2, 2027; founders can sell 29% after Q1 2027 results or May 17. The $26B side placement has no lockup. [FourWeekMBA](https://fourweekmba.com/ai-up-to-1-6b-anthropic-shares-can-unlock-by-feb-2-the-dates/)
+  - The forced buyer: Nasdaq dropped its 10% minimum float and lets a top-40 company into the Nasdaq-100 after 15 trading days (May 1). One estimate has index funds taking about 28% of the Anthropic deal. Crypto's version is the exchange listing. [Forbes](https://www.forbes.com/sites/garthfriesen/2026/04/25/spacex-ipo-is-forcing-changes-to-index-and-underwriting-rules/) · [Morningstar](https://www.morningstar.com/funds/what-anthropics-ipo-means-your-index-fund)
+- **The token side.**
+  - Binance Research, May 2024: 2024 launches averaged a 12.3% market-cap-to-FDV ratio, the lowest in three years. [Binance Research](https://public.bnbstatic.com/static/files/research/low-float-and-high-fdv-how-did-we-get-here.pdf) (via coverage)
+  - GSR, Sept 18, 2,300+ listings: tokens launching above $1B FDV float a median 13–14% and are down a median 81% a year later. [GSR](https://www.gsr.io/insights/beyond-low-float-high-fdv-what-better-token-launches-look-like)
+  - 2025: 100 of 118 launches trade below their launch valuation. [CryptoSlate](https://cryptoslate.com/heres-why-4-out-of-5-new-tokens-launches-crashed-this-year/)
+  - Toward equity: Hyperliquid about $1.32B of buybacks, about 4.8% of supply; Uniswap's fee switch (Dec 2025) plus a 100M UNI burn; Pump.fun burned about 36% of circulating supply (Apr 28); Centrifuge voted 98% to swap 1 CFG for 1 share (pending approval); Across proposed the same (outcome unverified). [TechFlow](https://www.techflowpost.com/en-US/article/35364) · [KuCoin](https://www.kucoin.com/news/flash/centrifuge-passes-cp172-vote-enables-token-to-equity-conversion)
+  - Full circle: Block.one raised about $4.1B in the EOS token sale, paid the SEC $24M, and funded Bullish, which listed on the NYSE in Aug 2025.
+- **The quote.** GSR: "Crypto's launch problem is the modern new-issue problem, with faster vesting and fewer disclosures."
+- **The rebuttal (give it a fair minute).** IPO unlock dates sit in a registered filing with audited numbers. Small IPO floats reach about 54% circulating within two years (Goldman, secondhand); token vesting usually runs four. And the float is small because the company is huge: 7% of Anthropic is still the largest offering ever.
+- **Callbacks:** Ep 21 bench (the first S-1); Ep 23 (the slowdown lab sprints).
+
+**Part 4: Chris's contrarian take on GTA 6 (≤3 min)**
+
+Chris brings the take. These are the facts under it.
+
+- **The consensus.** Launched Nov 19 on PS5 and Xbox, $79.99. Metacritic 99, tied with Ocarina of Time for the best ever. Sensor Tower's estimate as of Thursday evening: 24.6M copies, about $2.36B. GTA V's first day was 11.2M and $816M. [Reuters via Globe and Mail](https://www.theglobeandmail.com/business/article-take-two-grand-theft-auto-vi-sales/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/-grand-theft-auto-vi-becomes-the-best-reviewed-video-game-ever)
+- **Contrarian ammunition.**
+  - The $2.36B is a third-party estimate with pre-orders since June folded in. Take-Two has published no number. Zelnick: "we still aren't ready to declare victory."
+  - The stock fell on launch day (sources conflict on the close; check). After both GTA V and Red Dead 2, Take-Two was below its pre-launch price 20 trading days later.
+  - Take-Two is about a $40B company that guided $8.0–8.2B in bookings for the year, below the Street. Recurring spending fell 9% last quarter. [8-K](https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm)
+  - No PC version and no GTA Online at launch. TD Cowen: the next Online is "the most important question for the stock, more so than GTA VI unit sales."
+  - The "$1B sick day" comes out near $400M on its own inputs. Stanford's Nick Bloom: "social media clickbait." [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/gta-6-sick-days-could-110300772.html)
+  - The other direction: Ben Thompson says $80 is too cheap and it should cost about $200.
+- **Why it belongs in this block.** Same week, same pattern: ANT opened up 34% and closed up 17%; the biggest game launch ever and the stock dropped. The best day is the day before.
+- **Our beats, one line each.** PlayStation Network buckled at launch (one more for O's list; Sony gave no cause). Zelnick says generative AI had "zero part" in the game. There's no official GTA coin; the Solana ones are fakes. Tokenized Take-Two stock does trade on Solana.
+
+- **Debate:**
+  1. **Chris:** founders hold 50.1% of the vote and a trust picks the board. If a stablecoin issuer told you "trust our structure," what would you ask for instead?
+  2. **Tyler:** bitcoin has no float problem: no insiders, no unlocks, no foundation. Is that the pitch, or is a 7% float fine when the lockup is in a filing?
+  3. **Jackson:** it capped the skill its auditor says is driving the speed-up, then raised $81B. Is that the brake or the race the letter describes?
+  4. **All:** a letter signed by both Nate Soares and Beff Jezos that demands nothing. Credible, or empty?
+- **Do NOT say:** any buy or sell call on ANT or Take-Two; ANT's price without the morning-of check; "$1.96B per founder" (combined); the float as exact (about 7%, from secondary write-ups, not the prospectus); "$1.5T market cap" without "fully diluted" (basic is about $1.1T at $83); the unlock schedule as read from the filing (secondary); "Binance says tokens float 12% today" (2024 launches); that tokens are safer than IPOs (most 2025 launches are down); "METR found exactly 2×"; "CAIS organized it"; a fixed signer count; that Anthropic responded; "$2.36B" as Take-Two's number (Sensor Tower estimate); any GTA coin as real; other labs as a comparison (off the slate).
+
+**Clip question:** "Crypto got mocked for selling twelve percent of a token and calling it a launch. Anthropic just sold seven percent and called it the biggest IPO in history. What's the difference?"
+
+### F — Perp of Fortune + the Bitcoin flip (≤4 min, ~31:00)
+
+- Pick an opener from the [five reusable Perp of Fortune intros](../../perp-of-fortune-intros.md). Read the disclosure before the bit.
+- **Ep 23's record:** long Google 20× (+$4.28), Bitcoin down by random draw (+$22.68, the first flip win).
+- **Suggested position:** `xyz:ANT`, either side, robot's choice, and the robot is Claude. It just heard M: a 7% float and 1.6B shares unlocking by Feb 2. Check day-of that the pre-IPO perp converted to a listed-stock perp and what the leverage cap is. Fallback: Take-Two, to settle Chris's take with money.
+- **The flip:** same hourly Polymarket market. One flip, no averaging down.
+- Caption and title for any perp short carry the P&L.
+
+### L — Layer-2 series, entry four: Ark and Cashu (Tyler, ≤7 min)
+
+**Why together:** both give you instant bitcoin payments without opening a Lightning channel. Ark keeps your exit. Cashu gives it up and buys privacy. Start on the loss, then explain. Record each 90-second explainer as a clean standalone take.
+
+- **The stakes, Ark.** Oct 5: Second's server didn't enforce its own co-signature at boarding and 0.75 BTC of operator liquidity was drained. Second says user funds were not at risk. No postmortem on its blog as of Nov 19 (latest post Oct 14). [The Bitcoin Manual](https://thebitcoinmanual.com/articles/ark-operator-second-hack/) · [Second](https://second.tech/blog)
+- **Ark in 90 seconds.** An operator batches many users into one on-chain transaction; each user holds a pre-signed path out (a VTXO). Payments inside are instant. The catches: VTXOs expire and must be refreshed, the operator fronts liquidity, and leaving alone costs on-chain fees.
+- **Three Ark implementations.** Arkade (public beta on mainnet since Oct 2025), Second's Bark (mainnet since Jun 9), Lightning Labs' Wavelength (alpha, invite-only on mainnet; "Ark-like"). [Wavelength](https://github.com/lightninglabs/wavelength)
+- **Cashu in 90 seconds.** You send bitcoin to a mint and get back ecash: signed tokens that sit on your phone like cash. The mint signs them blind, so it can't tell which token it gave to whom or see who pays whom. Paying is handing over a token. Redeeming is asking the mint for the bitcoin back. The mint holds all of it.
+- **The stakes, Cashu.** The mint can walk off with the bitcoin, or issue more ecash than it holds, and nobody outside can see it. That's the same blind spot as Liquid's hidden amounts (Ep 23, 46:52). No mint rug or exploit with user losses turned up for 2026; the live failures are wallet bugs, like a Zeus issue (Nov 9) where a restart can hide a balance at a mint the app added on its own. [Zeus #5711](https://github.com/ZeusLN/zeus/issues/5711)
+- **What's new on Cashu.**
+  - Paper ecash: BitNotes (Oct 22) prints tokens you can verify offline. [Crypto Briefing](https://cryptobriefing.com/calle-launches-bitnotes-cashu-ecash-wallet/)
+  - A stablecoin: Ducat's bitcoin-backed UNIT got an ecash form, Turbo UNIT (Oct 24); holders depend on Ducat's mint to redeem. Chris's line. [Crypto Briefing](https://cryptobriefing.com/ducat-unit-stablecoin-cashu-turbo-unit/)
+  - Enclave mints: Calle said around May that mints are coming where the operator can't reach the keys or inflate supply. One line only; enclaves are retired this month. [TFTC](https://www.tftc.io/non-custodial-ecash-mints-bitcoin-cashu-enclave-hal-finney)
+  - Nutshell 0.22 (Nov 2–3) is the reference mint's latest release; minting on-chain, not just over Lightning, arrived in Q2. [Cashu Q2](https://blog.cashu.space/q2-2026-highlights/)
+- **The series test, side by side.** Unilateral exit: Ark yes (pre-signed, before expiry); Cashu no (the mint or nothing). Privacy from the operator: Ark no; Cashu yes. Is Cashu a layer two at all? Its own developers call it custodial ecash. Tyler rules.
+- **Series status lines.** Liquid: 1:1 again, Federation peg-outs still restricted, no November post. Utexo's RGB USDT still set for Nov 28. Nothing new from Core or Lightning since Nov 12. [Liquid](https://blog.liquid.net/liquid-network-staged-recovery-update/)
+- **Grades:** Tyler picks two letters. Ranked against Spark (Ep 17), Lightning (Ep 19), Liquid (Ep 23).
+- **Tie back to M:** an Ark VTXO expires and a locked-up share unlocks. Both are a date on a calendar that decides what you really own.
+- **Debate:**
+  1. **Tyler:** you can have the exit or the privacy. Which one would you hand your mother?
+  2. **Chris:** a stablecoin as ecash at one mint. Is that more or less trust than a bank deposit? And 46 days without an Ark postmortem: what would you accept from an issuer?
+  3. **Jackson:** if the mint runs in an enclave nobody can open, does Cashu pass the exit test, or did we just move the trust to a chip (Ep 23)?
+- **Do NOT say:** Second published a postmortem; Second users lost funds; Wavelength is a full Ark; Spark is an Ark; Arkade left beta; Cashu is non-custodial or trustless; the mint can see your payments (it can't link them; it does hold the money); a Cashu mint rugged users this year (none found); enclave mints are live (announced); BitNotes is on iPhone (Android and macOS only); Turbo UNIT is non-custodial; Liquid peg-outs reopened; Utexo launched.
+
+**Clip question:** "Two ways to hold bitcoin on your phone. In one you can always leave, and the operator sees everything. In the other nobody sees anything, and the operator holds all the money. Which do you pick?"
+
+## Prepared bench (researched for Ep 24, off the four-topic slate)
+
+Use one only if a main block runs short. D first (standing topic), then S.
 
 ### S — Your AI coding tool is the way in (Chris, ≤5 min)
 
-**O already read the list. This is the deep dive on two of the thirteen, plus Binance.**
+**Bench. O already read the list. This is the deep dive on two of the thirteen, plus Binance.**
 
 **Shape:** three break-ins, one pattern. Each one is 90 seconds: who got hit, the number, how.
 
@@ -186,14 +326,6 @@
 
 **Clip question:** "Bitcoin's oldest public miners are quitting to rent their buildings to AI companies. One of them made seven percent of its revenue from mining last quarter. Is that the end of something?"
 
-### F — Perp of Fortune + the Bitcoin flip (≤4 min, ~31:00)
-
-- Pick an opener from the [five reusable Perp of Fortune intros](../../perp-of-fortune-intros.md). Read the disclosure before the bit.
-- **Ep 23's record:** long Google 20× (+$4.28), Bitcoin down by random draw (+$22.68, the first flip win).
-- **Suggested position:** `xyz:ANT`, either side, robot's choice, and the robot is Claude. Check day-of that the pre-IPO perp converted to a listed-stock perp and what the leverage cap is. Fallback: `xyz:NVDA` after its first earnings without Huang.
-- **The flip:** same hourly Polymarket market. One flip, no averaging down.
-- Caption and title for any perp short carry the P&L.
-
 ### W — Browsers are out (Jackson, ≤4 min)
 
 **Premise check:** half true. The agent browsers died and their features moved into the browsers people already had. The real story is gatekeeping.
@@ -211,7 +343,7 @@
 
 **Clip question:** "Amazon banned Meta's shopping robot from its store. Resy bans humans who send one. Who gets to decide which AI is allowed to use the internet?"
 
-### D — Agentic commerce: three more banks (Chris, ≤3 min, straight after W)
+### D — Agentic commerce: three more banks (Chris, ≤3 min)
 
 - **Nov 18.** Citi's updated agreement makes customers responsible for agent activity even if the AI tool is hacked or leaks credentials. Citi: "we want customers to understand the risks associated with sharing banking credentials or authorizing those tools." PNC changed terms the same day; Citizens emailed customers. JPMorgan and Bank of America moved in October. No regulator has responded. [TechCrunch via Yahoo](https://finance.yahoo.com/technology/ai/articles/more-banks-says-customers-using-173210659.html)
 - **Nov 24.** Wells Fargo, from its own page: "requests submitted through the tool may be treated as if they came directly from you" and "We also reserve the right to restrict or block access from certain third-party AI tools." [Wells Fargo](https://www.wellsfargo.com/mobile-online-banking/updates/)
@@ -226,31 +358,6 @@
 - **Do NOT say:** banks banned agents (they shift liability); the Wells Fargo Section 15 wording as a direct quote (secondhand); any Black Friday result; a confirmed agent-fraud loss; x402 totals without the caveat; employer names or products.
 
 **Clip question:** "Citi's new terms: if your AI agent gets hacked and drains your account, you authorized it. Would you still turn one on for Black Friday?"
-
-### L — Layer-2 series, entry four: Ark and Cashu (Tyler, ≤7 min)
-
-**Why together:** both give you instant bitcoin payments without opening a Lightning channel. Ark keeps your exit. Cashu gives it up and buys privacy. Start on the loss, then explain. Record each 90-second explainer as a clean standalone take.
-
-- **The stakes, Ark.** Oct 5: Second's server didn't enforce its own co-signature at boarding and 0.75 BTC of operator liquidity was drained. Second says user funds were not at risk. No postmortem on its blog as of Nov 19 (latest post Oct 14). [The Bitcoin Manual](https://thebitcoinmanual.com/articles/ark-operator-second-hack/) · [Second](https://second.tech/blog)
-- **Ark in 90 seconds.** An operator batches many users into one on-chain transaction; each user holds a pre-signed path out (a VTXO). Payments inside are instant. The catches: VTXOs expire and must be refreshed, the operator fronts liquidity, and leaving alone costs on-chain fees.
-- **Three Ark implementations.** Arkade (public beta on mainnet since Oct 2025), Second's Bark (mainnet since Jun 9), Lightning Labs' Wavelength (alpha, invite-only on mainnet; "Ark-like"). [Wavelength](https://github.com/lightninglabs/wavelength)
-- **Cashu in 90 seconds.** You send bitcoin to a mint and get back ecash: signed tokens that sit on your phone like cash. The mint signs them blind, so it can't tell which token it gave to whom or see who pays whom. Paying is handing over a token. Redeeming is asking the mint for the bitcoin back. The mint holds all of it.
-- **The stakes, Cashu.** The mint can walk off with the bitcoin, or issue more ecash than it holds, and nobody outside can see it. That's the same blind spot as Liquid's hidden amounts (Ep 23, 46:52). No mint rug or exploit with user losses turned up for 2026; the live failures are wallet bugs, like a Zeus issue (Nov 9) where a restart can hide a balance at a mint the app added on its own. [Zeus #5711](https://github.com/ZeusLN/zeus/issues/5711)
-- **What's new on Cashu.**
-  - Paper ecash: BitNotes (Oct 22) prints tokens you can verify offline. [Crypto Briefing](https://cryptobriefing.com/calle-launches-bitnotes-cashu-ecash-wallet/)
-  - A stablecoin: Ducat's bitcoin-backed UNIT got an ecash form, Turbo UNIT (Oct 24); holders depend on Ducat's mint to redeem. Chris's line. [Crypto Briefing](https://cryptobriefing.com/ducat-unit-stablecoin-cashu-turbo-unit/)
-  - Enclave mints: Calle said around May that mints are coming where the operator can't reach the keys or inflate supply. One line only; enclaves are retired this month. [TFTC](https://www.tftc.io/non-custodial-ecash-mints-bitcoin-cashu-enclave-hal-finney)
-  - Nutshell 0.22 (Nov 2–3) is the reference mint's latest release; minting on-chain, not just over Lightning, arrived in Q2. [Cashu Q2](https://blog.cashu.space/q2-2026-highlights/)
-- **The series test, side by side.** Unilateral exit: Ark yes (pre-signed, before expiry); Cashu no (the mint or nothing). Privacy from the operator: Ark no; Cashu yes. Is Cashu a layer two at all? Its own developers call it custodial ecash. Tyler rules.
-- **Series status lines.** Liquid: 1:1 again, Federation peg-outs still restricted, no November post. Utexo's RGB USDT still set for Nov 28. Nothing new from Core or Lightning since Nov 12. [Liquid](https://blog.liquid.net/liquid-network-staged-recovery-update/)
-- **Grades:** Tyler picks two letters. Ranked against Spark (Ep 17), Lightning (Ep 19), Liquid (Ep 23).
-- **Debate:**
-  1. **Tyler:** you can have the exit or the privacy. Which one would you hand your mother?
-  2. **Chris:** a stablecoin as ecash at one mint. Is that more or less trust than a bank deposit? And 46 days without an Ark postmortem: what would you accept from an issuer?
-  3. **Jackson:** if the mint runs in an enclave nobody can open, does Cashu pass the exit test, or did we just move the trust to a chip (Ep 23)?
-- **Do NOT say:** Second published a postmortem; Second users lost funds; Wavelength is a full Ark; Spark is an Ark; Arkade left beta; Cashu is non-custodial or trustless; the mint can see your payments (it can't link them; it does hold the money); a Cashu mint rugged users this year (none found); enclave mints are live (announced); BitNotes is on iPhone (Android and macOS only); Turbo UNIT is non-custodial; Liquid peg-outs reopened; Utexo launched.
-
-**Clip question:** "Two ways to hold bitcoin on your phone. In one you can always leave, and the operator sees everything. In the other nobody sees anything, and the operator holds all the money. Which do you pick?"
 
 ## Fresh-news bench (each opens on the victim)
 
@@ -269,11 +376,15 @@
 
 ## Host pre-read / before recording
 
-- **Everyone (10 min):** the O tables below the script, [the statement](https://misanthropicstatement.com), [CNBC on the pricing](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html), [The Hacker News on Cursor](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html).
-- **Jackson:** rehearse the O script out loud twice; check for Microsoft's final report (due Nov 20) and any AWS or United root cause, and move them between buckets if one lands; check ANT's first day and any Anthropic response the morning of; open the Stock Titan governance claims against the filing; pick the cold-open beats and the title.
-- **Chris:** open [Cursor's own post](https://cursor.com/blog/security-incident-update) and [Google's report](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold) (the desk only has both secondhand); read the TechCrunch bank piece; have the $14.2B stablecoin answer ready.
-- **Tyler:** rehearse the Ark and Cashu explainers to 90 seconds each; check second.tech for a postmortem and blog.liquid.net for a peg-out reopening; skim the [Cashu Q2 highlights](https://blog.cashu.space/q2-2026-highlights/); pick both grades and rule on whether Cashu counts as a layer two; prepare the contrarian corner in B.
+- **Everyone (10 min):** the O tables below the script, the C timeline table, [the statement](https://misanthropicstatement.com), [GSR's piece](https://www.gsr.io/insights/beyond-low-float-high-fdv-what-better-token-launches-look-like).
+- **Jackson:** rehearse the three read-aloud scripts (O, C, M part 3) twice each; check for Microsoft's final report (due Nov 20) and any AWS or United root cause, and move them between buckets if one lands; check the [Chainalysis status page](https://status.chainalysis.com/) for a close-out; check ANT's price and any Anthropic response the morning of; pick the cold-open beats and the title.
+- **Chris:** bring the GTA 6 take in one sentence before recording so Jackson can set it up; check Take-Two's launch-day close and whether it has published a sales number; have the freeze-desk answer ready for C.
+- **Tyler:** rehearse the Ark and Cashu explainers to 90 seconds each; check second.tech for a postmortem and blog.liquid.net for a peg-out reopening; skim the [Cashu Q2 highlights](https://blog.cashu.space/q2-2026-highlights/); pick both grades and rule on whether Cashu counts as a layer two; skim the Bitcoin Fog quote for C.
 - **Whoever runs the perp:** confirm the ANT perp's status, place the flip, confirm the dashboard share.
-- **Unverified, check before quoting:** in O, the Apify, N-able, Infoblox and Expedia entries (search summaries or one outlet), Bitrise and ConnectWise (one outlet), and the Fireworks "via its cloud provider" detail; the IPO governance details; the Nov 10 "threshold met" filing claim; Hendrycks's X posts; Cursor's 5,000 and 0.01%; Google's report text; the publisher traffic figures; the Wells Fargo Section 15 wording; whether ANT traded; every Cashu item (BitNotes, Turbo UNIT, enclave mints, Nutshell 0.22 are from search summaries).
-- **Fact guardrails:** no BTC price or ETF numbers anywhere, including B and the perp wrap; no OpenAI or Chainalysis; no employer names; the two Claude Code stories are a poisoned cache and an edited config, not product bugs; North Korea attributions are "suspected" or "per the FBI"; Peña is accused; Megaspeed is under investigation.
-- **Close:** perp and flip result, one prediction each. Tease only what a host claims: Black Friday's first agent numbers, Utexo's Nov 28 launch, the next L2 entry.
+- **Unverified, check before quoting:**
+  - O: the Apify, N-able, Infoblox and Expedia entries (search summaries or one outlet), Bitrise and ConnectWise (one outlet), the Fireworks "via its cloud provider" detail.
+  - C: Mercado Pago and ICONOMI (relayed); the founding year, founders, valuation and customer count (Wikipedia and aggregators); every duration is our arithmetic on status-page timestamps.
+  - M: Anthropic's float, share counts and unlock schedule (secondary write-ups, not the prospectus); Circle's float (derived); the Binance report's text (via coverage); the Goldman 54% figure (secondhand); the Across vote; Hendrycks's X posts; Take-Two's launch-day close ($208.65 versus $216.11); most GTA figures beyond the 8-K, Reuters and Fox are from search summaries.
+  - L: every Cashu item (BitNotes, Turbo UNIT, enclave mints, Nutshell 0.22 are from search summaries).
+- **Fact guardrails:** no BTC price or ETF numbers anywhere, including the perp wrap; no OpenAI; Chainalysis only in C; no employer names; no buy or sell calls; the Chainalysis attacker and cause are unknown; "about 7%" for Anthropic's float.
+- **Close:** perp and flip result, one prediction each. Tease only what a host claims: Microsoft's final report, the Feb 2 unlock, Utexo's Nov 28 launch, the next L2 entry.
